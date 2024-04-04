@@ -1,0 +1,8 @@
+{
+  "name": "open-home-foundation-website",
+  "version": "1.0.0",
+  "description": "This is the source of the Open Home Foundation website.",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
