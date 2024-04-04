@@ -1,2 +1,3 @@
-# open-home-foundation-website
-Website of the Open Home Foundation
+# Open Home Foundation website
+
+This is the source of the Open Home Foundation website.
