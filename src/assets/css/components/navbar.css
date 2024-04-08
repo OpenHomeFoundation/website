@@ -1,0 +1,144 @@
+.navbar {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(237, 236, 237, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  transition: width 120ms ease-in-out;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.navbar .navbar-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.navbar .navbar-bar .logo {
+  height: 58px;
+  padding: 16px;
+  transition: height 120ms ease-in-out;
+}
+
+.navbar .navbar-bar .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px 16px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+}
+
+.navbar .navbar-bar .menu .menu-item a {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-family: Biotif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.navbar .navbar-bar .menu .menu-item.active a {
+  font-weight: 700;
+}
+
+.navbar .navbar-bar .button {
+  color: var(--light-grey-color);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  text-align: center;
+  font-family: Biotif;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  padding: 8px 32px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+}
+
+.navbar .navbar-bar .menu {
+  display: none;
+}
+
+.navbar .navbar-bar .button {
+  display: none;
+}
+
+.navbar .navbar-bar .menu-button {
+  display: flex;
+  padding: 16px;
+  margin: 0 -16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu.expanded {
+  display: flex;
+}
+
+.navbar-menu-item {
+  width: 100%;
+}
+
+.navbar-menu-item a {
+  display: block;
+  color: var(--primary-text-color);
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar-menu-item.active a {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    width: 85%;
+  }
+
+  .navbar .navbar-bar .logo {
+    height: 52px;
+  }
+
+  .navbar .navbar-bar .menu {
+    display: flex;
+  }
+
+  .navbar .navbar-bar .button {
+    display: flex;
+  }
+
+  .navbar .navbar-bar .menu-button {
+    display: none;
+  }
+}

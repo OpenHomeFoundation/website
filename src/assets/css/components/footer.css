@@ -1,0 +1,5 @@
+.footer {
+  background-color: var(--primary-color);
+  color: var(--on-prumary-color);
+  min-height: 300px;
+}

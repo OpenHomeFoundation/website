@@ -1,2 +1,6 @@
 @import "global/reset.css";
 @import "global/variables.css";
+@import "global/layout.css";
+@import "global/font.css";
+
+@import "components/navbar.css";

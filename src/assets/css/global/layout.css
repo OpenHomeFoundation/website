@@ -1,0 +1,23 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Biotif;
+  font-weight: 400;
+}
+
+.gradient-1 {
+  background: url("/assets/images/gradients/gradient-1.png")  lightgray 0px 0.42px / 100% 129.583% no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 0 8px;
+}

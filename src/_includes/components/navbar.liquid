@@ -1,0 +1,40 @@
+<div class="navbar">
+  <div class="navbar-bar">
+    <a href="/" class="logo-link">
+      <img
+        class="logo"
+        src="/assets/images/logo.svg"
+        alt="Open Home Foundation"
+      >
+    </a>
+    <ul class="menu">
+      <li class="menu-item {% if page.url == '/about/' %}active{% endif %}">
+        <a href="/about/">About us</a>
+      </li>
+      <li class="menu-item {% if page.url == '/project/' %}active{% endif %}">
+        <a href="/project/">Project & members</a>
+      </li>
+      <li class="menu-item {% if page.url == '/news/' %}active{% endif %}">
+        <a href="/news/">News</a>
+      </li>
+    </ul>
+    <a href="" class="button">Support us</a>
+    <button class="menu-button" id="navbar-menu-button" aria-haspopup="true" aria-controls="navbar-menu">
+      <img src="/assets/images/icons/menu.svg" alt="Menu">
+    </button>
+  </div>
+  <ul class="navbar-menu" id="navbar-menu" role="menu" aria-labelledby="navbar-menu-button">
+    <li class="navbar-menu-item {% if page.url == '/about/' %}active{% endif %}">
+      <a href="/about/">About us</a>
+    </li>
+    <li class="navbar-menu-item {% if page.url == '/project/' %}active{% endif %}">
+      <a href="/project/">Project & members</a>
+    </li>
+    <li class="navbar-menu-item {% if page.url == '/news/' %}active{% endif %}">
+      <a href="/news/">News</a>
+    </li>
+    <li class="navbar-menu-item">
+      <a href="/">Support us</a>
+    </li>
+  </ul>
+</div>

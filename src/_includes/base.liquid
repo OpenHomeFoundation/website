@@ -1,0 +1,22 @@
+{% capture full_title -%} {%- if title -%} {{ title }} – Open Home Foundation
+{%- else -%} Open Home Foundation {%- endif-%} {%- endcapture %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ full_title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="{{ full_title }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/nav-menu.js" defer></script>
+  </head>
+  <body>
+    <header>{% include 'components/navbar' %}</header>
+
+    <div class="content">{{ content }}</div>
+
+    <footer>{% include 'components/footer' %}</footer>
+  </body>
+</html>
