@@ -2,7 +2,14 @@
   "name": "open-home-foundation-website",
   "version": "1.0.0",
   "description": "This is the source of the Open Home Foundation website.",
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
+    "postcss-import-ext-glob": "^2.1.1"
   }
 }
