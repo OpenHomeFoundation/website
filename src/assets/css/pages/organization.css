@@ -1,0 +1,100 @@
+/* How we are funded section */
+
+#how-we-are-funded {
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+
+#how-we-are-funded .content h1 {
+  margin-bottom: 64px;
+}
+
+#how-we-are-funded .content {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #how-we-are-funded .content {
+    grid-column-end: span 10;
+    grid-column-start: 2;
+  }
+}
+
+/* Support our work section */
+
+#support-out-work {
+  padding-bottom: 160px;
+}
+
+#support-out-work .content h2 {
+  margin-bottom: 64px;
+}
+
+/* Structure section */
+
+#structure {
+  padding-bottom: 160px;
+}
+
+#structure .content h2 {
+  margin-bottom: 64px;
+}
+
+#structure .content {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #structure .content {
+    grid-column-end: span 10;
+    grid-column-start: 2;
+  }
+}
+
+#faq {
+  padding-top: 100px;
+  padding-bottom: 36px;
+}
+
+#faq h2 {
+  margin-bottom: 64px;
+  color: var(--on-dark-color);
+}
+
+#faq .grid-item {
+  grid-column-end: span 12;
+}
+
+#faq .question {
+  color: var(--primary-color);
+  font-family: Biotif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#faq .answer {
+  color: var(--grey-color);
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#faq .grid {
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  #faq .grid-item {
+    grid-column-end: span 6;
+  }
+}
