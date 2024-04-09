@@ -81,7 +81,7 @@
   margin-bottom: 64px;
 }
 
-#board-members .container {
+#board-members .member-card {
   border-radius: 16px;
   border: 1px solid var(--light-grey-color);
   background: rgba(237, 236, 237, 0.3);
