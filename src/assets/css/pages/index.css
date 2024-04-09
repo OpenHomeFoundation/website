@@ -81,7 +81,6 @@
 #principles .card .card-content {
   padding: 52px 32px;
   color: var(--secondary-text-color);
-  text-align: center;
   /* Body */
   font-family: Biotif;
   font-size: 16px;
@@ -105,16 +104,10 @@
 
 #work h2 {
   margin-bottom: 64px;
-  color: var(--primary-color);
-}
-
-#work p {
-  color: var(--grey-color);
 }
 
 #work .grid-item {
   grid-column: span 12;
-  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -133,16 +126,10 @@
 
 #collaborations h2 {
   margin-bottom: 48px;
-  color: var(--primary-color);
-}
-
-#collaborations p {
-  color: var(--grey-color);
 }
 
 #collaborations .grid-item {
   grid-column: span 12;
-  text-align: center;
 }
 
 @media (min-width: 768px) {

@@ -6,5 +6,6 @@
 
 @import "components/navbar.css";
 @import "components/footer.css";
+@import "components/button.css";
 
 @import "pages/index.css";

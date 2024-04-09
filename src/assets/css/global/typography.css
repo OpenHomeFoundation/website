@@ -25,3 +25,27 @@ h3 {
 .text-center {
   text-align: center;
 }
+
+.text-primary {
+  color: var(--primary-text-color);
+}
+
+.text-secondary {
+  color: var(--secondary-text-color);
+}
+
+.text-branding-primary {
+  color: var(--primary-color);
+}
+
+.text-branding-secondary {
+  color: var(--secondary-color);
+}
+
+.text-branding-tertiary {
+  color: var(--tertiary-color);
+}
+
+.text-grey {
+  color: var(--grey-color);
+}

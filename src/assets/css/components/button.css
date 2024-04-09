@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px 32px;
+  flex-wrap: wrap;
+
+  font-family: Biotif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: "primary"
+}
