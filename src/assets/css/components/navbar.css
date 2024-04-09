@@ -5,7 +5,7 @@
   right: 0;
   max-width: 1200px;
   width: 100%;
-  padding: 0 24px;
+  padding: 0;
   margin: auto;
   transition: padding 120ms ease-in-out;
 }
@@ -18,7 +18,7 @@
   width: 100%;
   margin: auto;
   backdrop-filter: blur(10px);
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 0px 0px;
 }
 
 .navbar .navbar-bar {
@@ -129,6 +129,14 @@
 }
 
 @media (min-width: 768px) {
+  .navbar-container {
+    padding: 0 24px;
+  }
+
+  .navbar {
+    border-radius: 0px 0px 16px 16px;
+  }
+
   .navbar .navbar-bar .menu {
     display: flex;
   }
