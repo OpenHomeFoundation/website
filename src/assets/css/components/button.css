@@ -3,8 +3,10 @@
   padding: 16px 32px;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 8px 32px;
+  gap: 8px 16px;
   flex-wrap: wrap;
+  border-radius: 80px;
+  width: auto;
 
   font-family: Biotif;
   font-size: 14px;
@@ -12,8 +14,30 @@
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
 }
 
-.button {
-  background-color: "primary"
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--on-secondary-color);
+}
+
+.button-tertiary {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.button-outline {
+  background-color: transparent;
+  color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+}
+
+.button-outline-light {
+  background-color: transparent;
+  color: var(--on-dark-color);
+  border: 1px solid var(--on-dark-color);
 }

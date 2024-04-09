@@ -15,6 +15,7 @@ html {
   --on-primary-color: var(--light-grey-color);
   --on-secondary-color: var(--light-grey-color);
   --on-tertiary-color: var(--dark-color);
+  --on-dark-color: var(--light-grey-color);
 
   --primary-text-color: var(--dark-blue-color);
   --secondary-text-color: var(--dark-grey-color);
