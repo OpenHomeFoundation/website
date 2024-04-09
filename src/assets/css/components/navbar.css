@@ -5,7 +5,7 @@
   right: 0;
   max-width: 1200px;
   width: 100%;
-  padding: 0px;
+  padding: 0 24px;
   margin: auto;
   transition: padding 120ms ease-in-out;
 }
@@ -129,10 +129,6 @@
 }
 
 @media (min-width: 768px) {
-  .navbar-container {
-    padding: 0 24px;
-  }
-
   .navbar .navbar-bar .menu {
     display: flex;
   }
