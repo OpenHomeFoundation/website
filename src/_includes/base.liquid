@@ -1,5 +1,18 @@
-{% capture full_title -%} {%- if title -%} {{ title }} – Open Home Foundation
-{%- else -%} Open Home Foundation {%- endif-%} {%- endcapture %}
+{% capture full_title -%} 
+{%- if title -%}
+{{ title }} – Open Home Foundation
+{%- else -%}
+Open Home Foundation
+{%- endif-%}
+{%- endcapture %}
+
+{% capture body_class -%} 
+{%- if page.fileSlug != "" -%}
+page-{{ page.fileSlug }}
+{%- else -%}
+page-index
+{%- endif-%}
+{%- endcapture %}
 
 <!doctype html>
 <html lang="en">
@@ -12,11 +25,10 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="/assets/js/nav-menu.js" defer></script>
   </head>
-  <body>
+  <body class="{{ body_class }}">
     <header>{% include 'components/navbar' %}</header>
 
     <div class="content">{{ content }}</div>
-
     <footer>{% include 'components/footer' %}</footer>
   </body>
 </html>

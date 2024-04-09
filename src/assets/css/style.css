@@ -2,5 +2,9 @@
 @import "global/variables.css";
 @import "global/layout.css";
 @import "global/font.css";
+@import "global/typography.css";
 
 @import "components/navbar.css";
+@import "components/footer.css";
+
+@import "pages/index.css";

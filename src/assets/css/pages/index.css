@@ -1,0 +1,157 @@
+/* Intro section */
+
+#intro {
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+#intro .announcement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .announcement {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-radius: 60px;
+  background: rgba(9, 41, 59, 0.2);
+  margin: auto;
+  color: var(--light-grey-color);
+  font-family: Biotif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 96px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#intro .intro-content {
+  grid-column: span 12;
+  text-align: center;
+}
+
+#intro .intro-content p {
+  font-family: Biotif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  #intro .intro-content {
+    grid-column-end: span 6;
+    grid-column-start: 4;
+  }
+}
+
+/* Principles section */
+
+#principles {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#principles h2 {
+  margin-bottom: 64px;
+}
+
+#principles .card {
+  border-radius: 16px;
+  background: rgba(237, 236, 237, 0.7);
+  overflow: hidden;
+  text-align: center;
+  grid-column: span 6;
+}
+
+#principles .card .card-header {
+  background: var(--light-grey-color);
+  padding: 32px;
+}
+
+#principles .card .card-header img {
+  margin-bottom: 16px;
+}
+
+#principles .card .card-content {
+  padding: 52px 32px;
+  color: var(--secondary-text-color);
+  text-align: center;
+  /* Body */
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  #principles .card {
+    grid-column: span 4;
+  }
+}
+
+/* Work section */
+
+#work {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#work h2 {
+  margin-bottom: 64px;
+  color: var(--primary-color);
+}
+
+#work p {
+  color: var(--grey-color);
+}
+
+#work .grid-item {
+  grid-column: span 12;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #work .grid-item {
+    grid-column-end: span 6;
+    grid-column-start: 4;
+  }
+}
+
+/* Collaborations section */
+
+#collaborations {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#collaborations h2 {
+  margin-bottom: 48px;
+  color: var(--primary-color);
+}
+
+#collaborations p {
+  color: var(--grey-color);
+}
+
+#collaborations .grid-item {
+  grid-column: span 12;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #collaborations .grid-item {
+    grid-column-end: span 6;
+    grid-column-start: 4;
+  }
+}
+
+/* Support us section */
+
+/* News section */

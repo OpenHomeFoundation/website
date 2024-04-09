@@ -1,12 +1,22 @@
 /*
   Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 /*
   Remove default margin
 */
 * {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }

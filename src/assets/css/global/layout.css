@@ -9,15 +9,35 @@ body {
   font-weight: 400;
 }
 
-.gradient-1 {
-  background: url("/assets/images/gradients/gradient-1.png")  lightgray 0px 0.42px / 100% 129.583% no-repeat;
+.bg-gradient-1 {
+  background: url("/assets/images/gradients/gradient-1.png") lightgray 0px
+    0.42px / 100% 129.583% no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
+.bg-dark-blue {
+  background-color: var(--dark-blue-color);
+}
+
 .container {
-  max-width: 1440px;
+  max-width: 1340px;
   width: 100%;
   margin: auto;
-  padding: 0 8px;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+  }
 }

@@ -22,26 +22,6 @@ h3 {
   line-height: normal;
 }
 
-.body {
-  font-family: Biotif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.body-medium {
-  font-family: Biotif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.body-large {
-  font-family: Biotif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.text-center {
+  text-align: center;
 }
