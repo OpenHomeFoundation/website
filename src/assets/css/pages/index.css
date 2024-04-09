@@ -49,8 +49,7 @@
 
 @media (min-width: 768px) {
   #intro .intro-content {
-    grid-column-end: span 6;
-    grid-column-start: 4;
+    grid-column: 4 / span 6;
   }
 }
 
@@ -118,8 +117,7 @@
 
 @media (min-width: 768px) {
   #work .grid-item {
-    grid-column-end: span 6;
-    grid-column-start: 4;
+    grid-column: 4 / span 6;
   }
 }
 
@@ -147,8 +145,7 @@
 
 @media (min-width: 768px) {
   #collaborations .grid-item {
-    grid-column-end: span 6;
-    grid-column-start: 4;
+    grid-column: 4 / span 6;
   }
 }
 
@@ -192,8 +189,7 @@
 
 @media (min-width: 768px) {
   #support-us .card {
-    grid-column-end: span 8;
-    grid-column-start: 3;
+    grid-column: 3 / span 8;
     padding: 90px;
   }
 }

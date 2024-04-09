@@ -18,8 +18,7 @@
 
 @media (min-width: 768px) {
   #how-we-are-funded .content {
-    grid-column-end: span 10;
-    grid-column-start: 2;
+    grid-column: 2 / span 10;
   }
 }
 
@@ -66,8 +65,7 @@
 
 @media (min-width: 768px) {
   #structure .content {
-    grid-column-end: span 10;
-    grid-column-start: 2;
+    grid-column: 2 / span 10;
   }
 }
 
@@ -89,13 +87,12 @@
 }
 
 #board-members .content {
-  grid-column-end: span 4;
-  grid-column-start: 2;
+  grid-column: 2 / span 4;
 }
 
 @media (min-width: 768px) {
   #board-members .content {
-    grid-column-end: span 10;
+    grid-column: 2 / span 10;
   }
 }
 
@@ -163,7 +160,7 @@
 }
 
 #faq .grid-item {
-  grid-column-end: span 12;
+  grid-column: span 12;
 }
 
 #faq .question {
@@ -190,6 +187,6 @@
 
 @media (min-width: 768px) {
   #faq .grid-item {
-    grid-column-end: span 6;
+    grid-column: span 6;
   }
 }

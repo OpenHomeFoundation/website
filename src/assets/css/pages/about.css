@@ -1,0 +1,30 @@
+/* How we are funded section */
+
+#about-intro {
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+
+#about-intro .content h1 {
+  margin-bottom: 64px;
+}
+
+#about-intro .content h1 strong {
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+#about-intro .content {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--light-grey-color);
+}
+
+@media (min-width: 768px) {
+  #about-intro .content {
+    grid-column: 3 / span 8;
+  }
+}
