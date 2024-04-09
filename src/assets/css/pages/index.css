@@ -66,31 +66,7 @@
 }
 
 #principles .card {
-  border-radius: 16px;
-  background: rgba(237, 236, 237, 0.7);
-  overflow: hidden;
-  text-align: center;
   grid-column: span 6;
-}
-
-#principles .card .card-header {
-  background: var(--light-grey-color);
-  padding: 32px;
-}
-
-#principles .card .card-header img {
-  margin-bottom: 16px;
-}
-
-#principles .card .card-content {
-  padding: 52px 32px;
-  color: var(--secondary-text-color);
-  /* Body */
-  font-family: Biotif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 @media (min-width: 768px) {

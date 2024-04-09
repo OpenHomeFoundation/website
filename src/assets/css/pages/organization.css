@@ -25,12 +25,26 @@
 
 /* Support our work section */
 
-#support-out-work {
+#support-our-work {
   padding-bottom: 160px;
 }
 
-#support-out-work .content h2 {
+#support-our-work h2 {
   margin-bottom: 64px;
+}
+
+#support-our-work .cards {
+  align-items: center;
+}
+
+#support-our-work .card {
+  grid-column: span 6;
+}
+
+@media (min-width: 768px) {
+  #support-our-work .card {
+    grid-column: span 4;
+  }
 }
 
 /* Structure section */
@@ -39,7 +53,7 @@
   padding-bottom: 160px;
 }
 
-#structure .content h2 {
+#structure h2 {
   margin-bottom: 64px;
 }
 
@@ -56,6 +70,87 @@
     grid-column-start: 2;
   }
 }
+
+/* Board members */
+
+#board-members {
+  padding-bottom: 160px;
+}
+
+#board-members h2 {
+  margin-bottom: 64px;
+}
+
+#board-members .container {
+  border-radius: 16px;
+  border: 1px solid var(--light-grey-color);
+  background: rgba(237, 236, 237, 0.3);
+  padding: 64px 0;
+}
+
+#board-members .content {
+  grid-column-end: span 4;
+  grid-column-start: 2;
+}
+
+@media (min-width: 768px) {
+  #board-members .content {
+    grid-column-end: span 10;
+  }
+}
+
+#board-members .members {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  gap: 16px;
+}
+
+#board-members .member {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+#board-members .member .name {
+  text-align: center;
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#board-members .member .role {
+  text-align: center;
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--secondary-text-color);
+}
+
+#board-members .member img {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #board-members .members {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* FAQ section */
 
 #faq {
   padding-top: 100px;

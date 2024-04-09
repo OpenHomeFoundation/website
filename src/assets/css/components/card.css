@@ -1,0 +1,29 @@
+.card {
+  border-radius: 16px;
+  background: rgba(237, 236, 237, 0.7);
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .card-header {
+  background: var(--light-grey-color);
+  padding: 32px;
+}
+
+.card .card-header img {
+  margin-bottom: 16px;
+}
+
+.card .card-content {
+  padding: 52px 32px;
+  color: var(--secondary-text-color);
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}

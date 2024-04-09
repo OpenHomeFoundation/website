@@ -1,16 +1,23 @@
-.navbar {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  background: rgba(237, 236, 237, 0.7);
+.navbar-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   max-width: 1200px;
   width: 100%;
+  padding: 0px;
   margin: auto;
-  transition: width 120ms ease-in-out;
+  transition: padding 120ms ease-in-out;
+}
+
+.navbar {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(237, 236, 237, 0.7);
+  width: 100%;
+  margin: auto;
+  backdrop-filter: blur(10px);
   border-radius: 0px 0px 16px 16px;
 }
 
@@ -122,12 +129,8 @@
 }
 
 @media (min-width: 768px) {
-  .navbar {
-    width: 85%;
-  }
-
-  .navbar .navbar-bar .logo {
-    height: 52px;
+  .navbar-container {
+    padding: 0 24px;
   }
 
   .navbar .navbar-bar .menu {
