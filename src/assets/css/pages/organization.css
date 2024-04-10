@@ -5,24 +5,10 @@
   padding-bottom: 160px;
 }
 
-#how-we-are-funded .content h1 {
-  margin-bottom: 64px;
-}
-
-#how-we-are-funded .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /* Support our work section */
 
 #support-our-work {
   padding-bottom: 160px;
-}
-
-#support-our-work h2 {
-  margin-bottom: 64px;
 }
 
 #support-our-work .cards {
@@ -35,10 +21,6 @@
   padding-bottom: 160px;
 }
 
-#board-members h2 {
-  margin-bottom: 64px;
-}
-
 #board-members .member-card {
   border-radius: 16px;
   border: 1px solid var(--light-grey-color);
@@ -49,7 +31,6 @@
 #board-members .members {
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
   gap: 16px;
 }
 
@@ -105,7 +86,6 @@
 }
 
 #faq h2 {
-  margin-bottom: 64px;
   color: var(--on-dark-color);
 }
 
@@ -125,12 +105,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-#faq .answer p {
-  margin-bottom: 16px;
-}
-
-#faq .grid {
-  margin-bottom: 64px;
 }

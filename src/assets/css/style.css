@@ -4,6 +4,8 @@
 @import "global/font.css";
 @import "global/typography.css";
 @import "global/grid.css";
+@import "global/flex.css";
+@import "global/margin.css";
 
 @import "components/navbar.css";
 @import "components/footer.css";

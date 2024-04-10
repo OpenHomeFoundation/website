@@ -1,12 +1,8 @@
 /* How we are funded section */
 
 #about-intro {
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 160px;
-}
-
-#about-intro .content h1 {
-  margin-bottom: 64px;
 }
 
 #about-intro .content h1 strong {
@@ -15,9 +11,5 @@
 }
 
 #about-intro .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   color: var(--light-grey-color);
 }
