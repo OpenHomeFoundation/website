@@ -4,20 +4,25 @@ body {
 }
 
 .bg-gradient-1 {
-  background: url("/assets/images/gradients/gradient-1.png") lightgray 0px
-    0.42px / 100% 129.583% no-repeat;
+  background: url("/assets/images/gradients/gradient-1.png") lightgray no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .bg-gradient-2 {
-  background: url("/assets/images/gradients/gradient-2.png") lightgray;
+  background: url("/assets/images/gradients/gradient-2.png") lightgray no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .bg-gradient-3 {
-  background: url("/assets/images/gradients/gradient-3.png") lightgray;
+  background: url("/assets/images/gradients/gradient-3.png") lightgray no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-gradient-4 {
+  background: url("/assets/images/gradients/gradient-4.png") lightgray no-repeat;
   background-position: center center;
   background-size: cover;
 }

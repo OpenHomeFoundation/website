@@ -89,3 +89,23 @@
     order: 1;
   }
 }
+
+#about-conclusion {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  color: var(--light-grey-color);
+}
+
+#about-conclusion .content-title {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--light-grey-color);
+}
+
+@media (min-width: 768px) {
+  #about-conclusion .content {
+    text-align: left;
+  }
+  #about-conclusion .content.end {
+    text-align: right;
+  }
+}
