@@ -31,7 +31,6 @@
 }
 
 #intro .intro-content {
-  grid-column: span 12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,12 +46,6 @@
   margin-bottom: 48px;
 }
 
-@media (min-width: 768px) {
-  #intro .intro-content {
-    grid-column: 4 / span 6;
-  }
-}
-
 /* Principles section */
 
 #principles {
@@ -62,16 +55,6 @@
 
 #principles h2 {
   margin-bottom: 64px;
-}
-
-#principles .card {
-  grid-column: span 6;
-}
-
-@media (min-width: 768px) {
-  #principles .card {
-    grid-column: span 4;
-  }
 }
 
 /* Work section */
@@ -89,7 +72,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  grid-column: span 12;
   margin-bottom: 48px;
 }
 
@@ -115,12 +97,6 @@
   background: rgba(237, 236, 237, 0.2);
 }
 
-@media (min-width: 768px) {
-  #work .grid-item {
-    grid-column: 4 / span 6;
-  }
-}
-
 /* Collaborations section */
 
 #collaborations {
@@ -140,13 +116,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  grid-column: span 12;
-}
-
-@media (min-width: 768px) {
-  #collaborations .grid-item {
-    grid-column: 4 / span 6;
-  }
 }
 
 /* Support us section */
@@ -177,7 +146,6 @@
 }
 
 #support-us .card {
-  grid-column: span 12;
   text-align: center;
   display: flex;
   align-items: center;
@@ -189,7 +157,6 @@
 
 @media (min-width: 768px) {
   #support-us .card {
-    grid-column: 3 / span 8;
     padding: 90px;
   }
 }

@@ -16,6 +16,12 @@ body {
   background-size: cover;
 }
 
+.bg-gradient-3 {
+  background: url("/assets/images/gradients/gradient-3.png") lightgray;
+  background-position: center center;
+  background-size: cover;
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue-color);
 }
@@ -25,19 +31,4 @@ body {
   width: 100%;
   margin: auto;
   padding: 0 24px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-row-gap: 24px;
-  grid-column-gap: 12px;
-}
-
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(12, 1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px;
-  }
 }

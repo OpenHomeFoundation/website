@@ -3,6 +3,7 @@
 @import "global/layout.css";
 @import "global/font.css";
 @import "global/typography.css";
+@import "global/grid.css";
 
 @import "components/navbar.css";
 @import "components/footer.css";
