@@ -46,29 +46,6 @@
   }
 }
 
-/* Structure section */
-
-#structure {
-  padding-bottom: 160px;
-}
-
-#structure h2 {
-  margin-bottom: 64px;
-}
-
-#structure .content {
-  grid-column: span 12;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  #structure .content {
-    grid-column: 2 / span 10;
-  }
-}
-
 /* Board members */
 
 #board-members {
@@ -179,6 +156,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+#faq .answer p {
+  margin-bottom: 16px;
 }
 
 #faq .grid {
