@@ -2,7 +2,7 @@
 
 #about-intro {
   padding-top: 250px;
-  padding-bottom: 160px;
+  padding-bottom: 100px;
 }
 
 #about-intro .content h1 strong {
@@ -10,6 +10,82 @@
   text-decoration: underline;
 }
 
-#about-intro .content {
+#about-intro {
   color: var(--light-grey-color);
+}
+
+#about-intro .quote {
+  font-family: Biotif;
+  font-size: 51px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#about-intro .author {
+  padding: 32px;
+  border-top: 1px solid var(--light-grey-color);
+  width: auto;
+}
+
+#about-intro .author .name {
+  font-family: Biotif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#about-intro .author .role {
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#about-intro .quote:before {
+  content: "“";
+  display: block;
+  text-align: center;
+  font-family: "Black Han Sans";
+  font-size: 516px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: -300px;
+  margin-top: 50px;
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+}
+
+#values {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+#values .big-subtitle {
+  font-family: Biotif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#values .item {
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#values .item img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
+@media (min-width: 768px) {
+  #values .item:nth-child(2n + 1) > div:first-child {
+    order: 1;
+  }
 }

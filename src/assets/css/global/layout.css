@@ -26,6 +26,14 @@ body {
   background-color: var(--dark-blue-color);
 }
 
+.bg-primary {
+  background-color: var(--primary-background-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-background-color);
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
