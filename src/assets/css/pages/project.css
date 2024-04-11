@@ -55,6 +55,48 @@
   margin-bottom: 24px;
 }
 
+#projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#collabs p {
+  /* Big Subtitle */
+  font-family: Biotif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--light-grey-color);
+}
+
+#collabs .collab-card {
+  padding: 48px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--grey-color);
+  background: rgba(237, 236, 237, 0.2);
+  height: 100%;
+}
+
+#collabs .collab-card p {
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+#collabs .collab-card img {
+  height: 36px;
+  margin-bottom: 24px;
+}
+
 #standards {
   padding-top: 100px;
   padding-bottom: 100px;
