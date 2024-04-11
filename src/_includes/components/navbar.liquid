@@ -9,6 +9,9 @@
         >
       </a>
       <ul class="menu">
+        <li class="menu-item {% if page.url == '/' %}active{% endif %}">
+          <a href="/">Home</a>
+        </li>
         <li class="menu-item {% if page.url == '/about/' %}active{% endif %}">
           <a href="/about/">About us</a>
         </li>
@@ -25,6 +28,9 @@
       </button>
     </div>
     <ul class="navbar-menu" id="navbar-menu" role="menu" aria-labelledby="navbar-menu-button">
+      <li class="navbar-menu-item {% if page.url == '/' %}active{% endif %}">
+        <a href="/">Home</a>
+      </li>
       <li class="navbar-menu-item {% if page.url == '/about/' %}active{% endif %}">
         <a href="/about/">About us</a>
       </li>
