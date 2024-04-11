@@ -10,17 +10,17 @@
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   flex-wrap: wrap;
   border-radius: 60px;
   background: rgba(9, 41, 59, 0.2);
-  margin: auto;
   color: var(--light-grey-color);
   font-family: Biotif;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  width: 100%;
 }
 
 #intro p {
