@@ -1,0 +1,125 @@
+#project-intro {
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
+
+#project-intro p {
+  /* Big Subtitle */
+  font-family: Biotif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--light-grey-color);
+}
+
+#projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#projects p {
+  /* Big Subtitle */
+  font-family: Biotif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--light-grey-color);
+}
+
+#projects .project-card {
+  padding: 64px 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--grey-color);
+  background: rgba(237, 236, 237, 0.2);
+  height: 100%;
+}
+
+#projects .project-card p {
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+#projects .project-card img {
+  height: 36px;
+  margin-bottom: 24px;
+}
+
+#standards {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#standards p {
+  /* Big Subtitle */
+  font-family: Biotif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--light-grey-color);
+}
+
+#standards .standard-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--grey-color);
+  background: rgba(237, 236, 237, 0.2);
+  height: 100%;
+  color: var(--light-grey-color);
+}
+
+#standards .standard-card h3 {
+  font-family: Biotif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+#standards .standard-card p {
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+#standards .standard-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#standards .standard-card .tags > span {
+  display: flex;
+  padding: 8px 12px 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  background: var(--dark-grey-color);
+
+  color: var(--light-grey-color);
+  font-family: Biotif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -7,7 +7,7 @@
 
 @media (min-width: 768px) {
   .grid {
-    row-gap: 24px;
+    column-gap: 24px;
   }
 }
 

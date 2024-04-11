@@ -57,6 +57,7 @@
   margin-top: 50px;
   opacity: 0.8;
   mix-blend-mode: soft-light;
+  pointer-events: none;
 }
 
 #values {

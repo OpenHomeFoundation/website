@@ -6,6 +6,7 @@
   gap: 8px 16px;
   flex-wrap: wrap;
   border-radius: 80px;
+  border: none;
   width: auto;
 
   font-family: Biotif;
