@@ -33,6 +33,12 @@ body {
   background-size: cover;
 }
 
+.bg-gradient-6 {
+  background: url("/assets/images/gradients/gradient-6.png") lightgray no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue-color);
 }

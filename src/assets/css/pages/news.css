@@ -1,0 +1,90 @@
+#news-header {
+  padding-top: 200px;
+  padding-bottom: 160px;
+  color: var(--light-grey-color);
+}
+
+#news-header p {
+  font-family: Biotif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#post {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#post .date {
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 128px;
+}
+
+#post .date:after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 45px;
+  background-color: var(--secondary-text-color);
+  margin: 16px auto;
+}
+
+#post .content {
+  margin-bottom: 128px;
+}
+
+#post .content p {
+  margin-bottom: 16px;
+  font-family: Biotif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#post .content h2 {
+  font-family: Biotif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+#post .content h3 {
+  font-family: Biotif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+#post .author {
+  padding-top: 32px;
+  border-top: 1px solid var(--secondary-text-color);
+  text-align: right;
+}
+
+#post .author .name {
+  color: var(--primary-text-color);
+}
+
+#post .author .role {
+  color: var(--secondary-text-color);
+  font-family: Biotif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
