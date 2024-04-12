@@ -16,9 +16,22 @@
   line-height: normal;
   text-transform: uppercase;
   text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  transition:
+    background-color 180ms ease-in-out,
+    color 180ms ease-in-out;
+  outline: none;
 
   background-color: var(--primary-color);
   color: var(--on-primary-color);
+  fill: currentColor;
+  border-color: var(--primary-color);
+}
+.button:focus-visible,
+.button:hover {
+  background-color: transparent;
+  color: var(--primary-color);
 }
 
 .button.button-icon {
@@ -34,21 +47,33 @@
 .button-secondary {
   background-color: var(--secondary-color);
   color: var(--on-secondary-color);
+  border-color: var(--secondary-color);
+}
+.button-secondary:focus-visible,
+.button-secondary:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
 }
 
 .button-tertiary {
   background-color: var(--tertiary-color);
   color: var(--on-tertiary-color);
+  border-color: var(--tertiary-color);
+}
+.button-tertiary:focus-visible,
+.button-tertiary:hover {
+  background-color: transparent;
+  color: var(--tertiary-color);
 }
 
 .button-outline {
   background-color: transparent;
   color: var(--primary-text-color);
-  border: 1px solid var(--primary-text-color);
+  border-color: var(--primary-text-color);
 }
-
-.button-outline-light {
-  background-color: transparent;
-  color: var(--on-dark-color);
-  border: 1px solid var(--on-dark-color);
+.button-outline:focus-visible,
+.button-outline:hover {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-background-color);
+  border-color: var(--primary-text-color);
 }
