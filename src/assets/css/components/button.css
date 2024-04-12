@@ -25,7 +25,6 @@
 
   background-color: var(--primary-color);
   color: var(--on-primary-color);
-  fill: currentColor;
   border-color: var(--primary-color);
 }
 .button:focus-visible,
