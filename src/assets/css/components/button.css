@@ -76,3 +76,15 @@
   color: var(--secondary-background-color);
   border-color: var(--primary-text-color);
 }
+
+.button-outline-light {
+  background-color: transparent;
+  color: var(--light-grey-color);
+  border-color: var(--light-grey-color);
+}
+.button-outline-light:focus-visible,
+.button-outline-light:hover {
+  background-color: var(--light-grey-color);
+  color: var(--dark-blue-color);
+  border-color: var(--light-grey-color);
+}
