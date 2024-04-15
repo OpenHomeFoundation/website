@@ -37,9 +37,9 @@
 }
 
 #board-members .members {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  display: grid;
+  gap: 72px 8px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #board-members .member {
@@ -48,6 +48,8 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
+  position: relative;
+  padding-bottom: 24px;
 }
 
 #board-members .member .name {
@@ -76,13 +78,28 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
+  z-index: 1;
+}
+
+#board-members .member svg {
+  stroke: var(--primary-color);
+  stroke-width: 1px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 0;
+  max-width: 196px;
+  vector-effect: non-scaling-stroke;
 }
 
 @media (min-width: 768px) {
   #board-members .members {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

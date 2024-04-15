@@ -8,6 +8,7 @@
   padding: 0;
   margin: auto;
   transition: padding 120ms ease-in-out;
+  z-index: 1000;
 }
 
 .navbar {
