@@ -2,13 +2,14 @@
 
 #how-we-are-funded {
   padding-top: 200px;
-  padding-bottom: 160px;
+  padding-bottom: 80x;
 }
 
 /* Support our work section */
 
 #support-our-work {
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 #support-our-work .cards {
@@ -24,7 +25,8 @@
 /* Board members */
 
 #board-members {
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 #board-members .member-card {
@@ -111,4 +113,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+#faq .answer p {
+  margin-bottom: 16px;
 }

@@ -18,11 +18,11 @@
         <li class="menu-item {% if page.url == '/organization/' %}active{% endif %}">
           <a href="/organization/">How we are organized</a>
         </li>
-        <li class="menu-item {% if page.url == '/project/' %}active{% endif %}">
-          <a href="/project/">Project & members</a>
+        <li class="menu-item {% if page.url == '/projects/' %}active{% endif %}">
+          <a href="/projects/">Projects & members</a>
         </li>
       </ul>
-      <a href="" class="button">Support us</a>
+      <a href="/organization/#support-our-work" class="button">Support us</a>
       <button class="menu-button" id="navbar-menu-button" aria-haspopup="true" aria-controls="navbar-menu">
         {% include 'svg/menu.svg' %}
       </button>
@@ -38,10 +38,10 @@
         <a href="/organization/">How we are organized</a>
       </li>
       <li class="navbar-menu-item {% if page.url == '/project/' %}active{% endif %}">
-        <a href="/project/">Project & members</a>
+        <a href="/projects/">Projects & members</a>
       </li>
       <li class="navbar-menu-item">
-        <a href="/">Support us</a>
+        <a href="/organization/#support-our-work">Support us</a>
       </li>
     </ul>
   </div>
