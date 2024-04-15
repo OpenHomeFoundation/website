@@ -165,3 +165,28 @@
   font-weight: 400;
   line-height: normal;
 }
+
+#standards .standard-card .actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#standards .standard-card.link {
+  text-decoration: none;
+  outline: none;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+#standards .standard-card.link:hover,
+#standards .standard-card.link:focus-visible {
+  background-color: transparent;
+  color: var(--primary-color);
+}
