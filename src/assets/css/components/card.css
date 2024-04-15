@@ -10,7 +10,8 @@
   padding: 32px;
 }
 
-.card .card-header img {
+.card .card-header img,
+.card .card-header svg {
   margin-bottom: 16px;
 }
 

@@ -13,6 +13,7 @@
   gap: 16px;
   flex-wrap: wrap;
   border-radius: 60px;
+  border: 1px solid transparent;
   background: rgba(9, 41, 59, 0.2);
   color: var(--light-grey-color);
   font-family: Biotif;
@@ -21,6 +22,16 @@
   text-decoration: none;
   text-align: center;
   width: 100%;
+  transition:
+    border-color 180ms ease-in-out,
+    background-color 180ms ease-in-out;
+  outline: none;
+}
+
+#intro .announcement:focus-visible,
+#intro .announcement:hover {
+  border-color: var(--light-grey-color);
+  background-color: rgba(9, 41, 59, 0.3);
 }
 
 #intro p {
@@ -36,6 +47,16 @@
 #principles {
   padding-top: 80px;
   padding-bottom: 100px;
+}
+
+#principles .card .card-header svg {
+  fill: var(--primary-color);
+}
+#principles .card .card-header.secondary svg {
+  fill: var(--secondary-color);
+}
+#principles .card .card-header.tertiary svg {
+  fill: var(--tertiary-color);
 }
 
 /* Work section */
