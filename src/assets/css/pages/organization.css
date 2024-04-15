@@ -82,6 +82,7 @@
 }
 
 #board-members .member svg {
+  fill: none;
   stroke: var(--primary-color);
   stroke-width: 1px;
   position: absolute;
@@ -93,7 +94,6 @@
   margin: 0 auto;
   z-index: 0;
   max-width: 196px;
-  vector-effect: non-scaling-stroke;
 }
 
 @media (min-width: 768px) {

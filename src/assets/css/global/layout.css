@@ -55,6 +55,10 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+.bg-branding-primary {
+  background-color: var(--primary-color);
+}
+
 .container {
   max-width: 1200px;
   width: 100%;

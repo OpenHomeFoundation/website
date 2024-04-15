@@ -60,6 +60,235 @@
   pointer-events: none;
 }
 
+#story {
+  padding-top: 120px;
+  overflow: hidden;
+}
+
+#story .title {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+#story .title .home-mask {
+  position: absolute;
+  fill: white;
+  bottom: -70px;
+  left: -150px;
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+  transform: rotate(135deg);
+  pointer-events: none;
+}
+
+#story .title h2 {
+  position: relative;
+  z-index: 2;
+}
+
+#story .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: var(--light-grey-color);
+}
+
+#story .content > div {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  #story .content {
+    flex-direction: column;
+  }
+  #story .content > div {
+    width: 100%;
+  }
+}
+
+#story .content .part-1 {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-right: 40px;
+}
+
+@media (max-width: 767px) {
+  #story .content .part-1 {
+    padding-right: 0;
+  }
+}
+
+#story .content .part-1 p {
+  position: relative;
+  z-index: 1;
+}
+
+#story .content .part-1 .initial-commit {
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+#story .content .part-1 .initial-commit .home-mask {
+  fill: var(--primary-color);
+  stroke: var(--light-grey-color);
+  z-index: 0;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 50%;
+  right: -150px;
+  width: 1800px;
+  height: 1800px;
+}
+
+#story .content .part-1 .initial-commit img {
+  position: relative;
+  border-radius: 16px;
+  border: 1px solid var(--light-grey-color);
+  background: var(--primary-color);
+  padding: 10px;
+  z-index: 2;
+}
+
+#story .content .part-1 .initial-commit .dot-1 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--light-grey-color);
+  background: var(--primary-color);
+  border-radius: 11px;
+  bottom: calc(50% - 7px);
+  left: -90px;
+}
+
+#story .content .part-1 .initial-commit .dot-2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--light-grey-color);
+  background: var(--primary-color);
+  border-radius: 11px;
+  bottom: calc(50% - 7px);
+  right: 0px;
+}
+
+#story .content .part-1 .values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 90%;
+  max-width: 400px;
+}
+
+#story .content .part-1 .values .value {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 1px solid var(--light-grey-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  fill: var(--light-grey-color);
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  #story .content .part-1 .values {
+    position: relative;
+    width: 100%;
+    max-width: inherit;
+  }
+  #story .content .part-1 .values:before {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: var(--light-grey-color);
+  }
+}
+
+#story .content .part-1 .line {
+  position: absolute;
+  border: 1px solid var(--light-grey-color);
+  width: calc(100% + 80px + 100px);
+  height: 100%;
+  left: -80px;
+  border-bottom-left-radius: 80px;
+  border-top: none;
+  border-right: none;
+  bottom: 142px;
+  z-index: 0;
+}
+
+#story .content .part-1 .foundation {
+  position: absolute;
+  background-color: var(--primary-color);
+  bottom: 80px;
+  right: -60px;
+  z-index: 5;
+  border: 1px solid var(--light-grey-color);
+  border-radius: 80px;
+  width: 120px;
+  height: 120px;
+  fill: var(--light-grey-color);
+}
+
+@media (max-width: 767px) {
+  #story .content .part-1 .foundation {
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -66px;
+  }
+}
+
+#story .content .part-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+#story .content .part-2 .tree {
+  position: relative;
+  margin-bottom: -20px;
+  margin-left: 80px;
+  margin-top: -150px;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  #story .content .part-2 .tree {
+    display: none;
+  }
+}
+
+#story .content .part-2 .text {
+  position: relative;
+  background-color: var(--dark-blue-color);
+  z-index: 1;
+  padding: 80px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  margin-right: -80px;
+}
+
+@media (max-width: 767px) {
+  #story .content .part-2 .text {
+    margin: 0 -24px;
+    padding: 130px 24px;
+  }
+}
+
 #values {
   padding-top: 120px;
   padding-bottom: 100px;
