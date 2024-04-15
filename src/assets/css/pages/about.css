@@ -286,6 +286,8 @@
   #story .content .part-2 .text {
     margin: 0 -24px;
     padding: 130px 24px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
   }
 }
 
