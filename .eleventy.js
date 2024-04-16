@@ -3,13 +3,18 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(require("./config/css-config.js"));
-  eleventyConfig.addPlugin(require('./config/js-config.js'));
+  eleventyConfig.addPlugin(require("./config/js-config.js"));
 
-  // 	--------------------- Passthrough File Copy -----------------------
-  eleventyConfig.addPassthroughCopy("src/assets/fonts/");
-  eleventyConfig.addPassthroughCopy("src/assets/images/");
+  // 	--------------------- Passthrough Assets -----------------------
   eleventyConfig.addPassthroughCopy({
+    "src/assets/fonts/": "assets/fonts/",
+    "src/assets/images/": "assets/images/",
     "src/assets/favicon/*": "/",
+  })
+
+  //   --------------------- Passthrough Modules -----------------------
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/swiper/swiper-bundle.min.css": "assets/swiper-bundle.min.css",
   });
 
   return {

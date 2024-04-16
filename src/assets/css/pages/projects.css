@@ -70,6 +70,23 @@
   color: var(--light-grey-color);
 }
 
+#collabs .collab-container {
+  margin: 24px -24px;
+  --swiper-wrapper-transition-timing-function: linear;
+}
+
+@media (min-width: 768px) {
+  #collabs .collab-container {
+    margin: 24px -48px;
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 10% 90%,
+      transparent 100%
+    );
+  }
+}
+
 #collabs .collab-card {
   padding: 48px 32px;
   text-align: center;
@@ -81,6 +98,12 @@
   border: 1px solid var(--grey-color);
   background: rgba(237, 236, 237, 0.2);
   height: 100%;
+}
+
+@media (min-width: 768px) {
+  #collabs .collab-card {
+    width: 420px;
+  }
 }
 
 #collabs .collab-card p {
