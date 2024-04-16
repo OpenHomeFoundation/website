@@ -146,6 +146,9 @@
   background: rgba(237, 236, 237, 0.2);
   height: 100%;
   color: var(--light-grey-color);
+  text-decoration: none;
+  outline: none;
+  transition: background-color 0.3s;
 }
 
 #standards .standard-card h3 {
@@ -199,17 +202,12 @@
 }
 
 #standards .standard-card.link {
-  text-decoration: none;
-  outline: none;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-  transition:
-    background-color 0.3s,
-    color 0.3s;
 }
 
-#standards .standard-card.link:hover,
-#standards .standard-card.link:focus-visible {
-  background-color: transparent;
-  color: var(--primary-color);
+#standards .standard-card:hover,
+#standards .standard-card:focus-visible {
+  background-color: rgba(9, 41, 59, 0.5);
+  border: 1px solid var(--grey-color);
 }
