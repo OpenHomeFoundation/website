@@ -3,7 +3,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(require("./config/css-config.js"));
-  eleventyConfig.addPlugin(require('./config/ts-config.js'));
+  eleventyConfig.addPlugin(require('./config/js-config.js'));
 
   // 	--------------------- Passthrough File Copy -----------------------
   eleventyConfig.addPassthroughCopy("src/assets/fonts/");

@@ -9,10 +9,10 @@
     "@shopify/prettier-plugin-liquid": "^1.4.4",
     "autoprefixer": "^10.4.19",
     "cssnano": "^6.1.2",
+    "esbuild": "^0.20.2",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
     "postcss-import-ext-glob": "^2.1.1",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "prettier": "^3.2.5"
   }
 }
