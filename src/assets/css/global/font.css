@@ -1,7 +1,9 @@
 @font-face {
   font-family: Biotif;
   src: url("/assets/fonts/biotif-biotif-variable.eot");
-  src: url("/assets/fonts/biotif-biotif-variable.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("/assets/fonts/biotif-biotif-variable.eot?#iefix")
+      format("embedded-opentype"),
     url("/assets/fonts/biotif-biotif-variable.woff2") format("woff2"),
     url("/assets/fonts/biotif-biotif-variable.woff") format("woff"),
     url("/assets/fonts/biotif-biotif-variable.ttf") format("truetype");
