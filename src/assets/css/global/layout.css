@@ -7,40 +7,52 @@ body {
   font-weight: 400;
 }
 
-.bg-gradient-1 {
-  background: url("/assets/images/gradients/gradient-1.png") lightgray no-repeat;
+.bg-gradient-home {
+  background:
+    url("/assets/images/gradients/noise.png"),
+    url("/assets/images/gradients/gradient-home.jpeg") var(--light-grey-color);
+  background-size: auto, cover;
   background-position: center center;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
 }
 
-.bg-gradient-2 {
-  background: url("/assets/images/gradients/gradient-2.png") lightgray no-repeat;
+.bg-gradient-about-header {
+  background:
+    url("/assets/images/gradients/noise.png"),
+    url("/assets/images/gradients/gradient-about-header.jpeg")
+      var(--secondary-color);
+  background-size: auto, cover;
   background-position: center center;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
 }
 
-.bg-gradient-3 {
-  background: url("/assets/images/gradients/gradient-3.png") lightgray no-repeat;
+.bg-gradient-about-closing {
+  background:
+    url("/assets/images/gradients/noise.png"),
+    url("/assets/images/gradients/gradient-about-closing.jpeg")
+      var(--primary-color);
+  background-size: auto, cover;
   background-position: center center;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
 }
 
-.bg-gradient-4 {
-  background: url("/assets/images/gradients/gradient-4.png") lightgray no-repeat;
+.bg-gradient-organization {
+  background:
+    url("/assets/images/gradients/noise.png"),
+    url("/assets/images/gradients/gradient-organization.jpeg")
+      var(--light-grey-color);
+  background-size: auto, cover;
   background-position: center center;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
 }
 
-.bg-gradient-5 {
-  background: url("/assets/images/gradients/gradient-5.png") lightgray no-repeat;
+.bg-gradient-project {
+  background:
+    url("/assets/images/gradients/noise.png"),
+    url("/assets/images/gradients/gradient-project.jpeg") var(--dark-blue-color);
+  background-size: auto, cover;
   background-position: center center;
-  background-size: cover;
-}
-
-.bg-gradient-6 {
-  background: url("/assets/images/gradients/gradient-6.png") lightgray no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .bg-dark-blue {

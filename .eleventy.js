@@ -12,7 +12,7 @@ module.exports = (eleventyConfig) => {
     "src/assets/favicon/*": "/",
   })
 
-  //   --------------------- Passthrough Modules -----------------------
+  //   --------------------- Passthrough CSS -----------------------
   eleventyConfig.addPassthroughCopy({
     "node_modules/swiper/swiper-bundle.min.css": "assets/swiper-bundle.min.css",
   });
