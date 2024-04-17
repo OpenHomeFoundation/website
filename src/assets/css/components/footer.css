@@ -18,12 +18,17 @@
   margin-bottom: 48px;
 }
 
+.footer-header .logo {
+  height: 40px;
+}
+
 @media (min-width: 768px) {
   .footer-header {
     flex-direction: row;
   }
   .footer-header .logo {
     margin-right: 72px;
+    height: 40px;
   }
 }
 
