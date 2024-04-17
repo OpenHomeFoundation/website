@@ -11,14 +11,16 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   border-radius: 60px;
   border: 1px solid transparent;
   background: rgba(9, 41, 59, 0.2);
   color: var(--light-grey-color);
   font-family: Biotif;
   font-size: 16px;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   text-decoration: none;
   text-align: center;
   width: 100%;
@@ -26,6 +28,10 @@
     border-color 180ms ease-in-out,
     background-color 180ms ease-in-out;
   outline: none;
+}
+
+#intro span {
+  flex: 1;
 }
 
 #intro .announcement:focus-visible,
