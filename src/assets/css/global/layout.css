@@ -11,7 +11,7 @@ body {
 .bg-gradient-home {
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-home.jpeg") var(--light-grey-color);
+    url("/assets/images/gradients/gradient-home.jpg") var(--light-grey-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
@@ -20,7 +20,7 @@ body {
 .bg-gradient-about-header {
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-about-header.jpeg")
+    url("/assets/images/gradients/gradient-about-header.jpg")
       var(--secondary-color);
   background-size: auto, cover;
   background-position: center center;
@@ -30,7 +30,7 @@ body {
 .bg-gradient-about-closing {
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-about-closing.jpeg")
+    url("/assets/images/gradients/gradient-about-closing.jpg")
       var(--primary-color);
   background-size: auto, cover;
   background-position: center center;
@@ -40,7 +40,7 @@ body {
 .bg-gradient-organization {
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-organization.jpeg")
+    url("/assets/images/gradients/gradient-organization.jpg")
       var(--light-grey-color);
   background-size: auto, cover;
   background-position: center center;
@@ -50,7 +50,7 @@ body {
 .bg-gradient-project {
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-project.jpeg") var(--dark-blue-color);
+    url("/assets/images/gradients/gradient-project.jpg") var(--dark-blue-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
