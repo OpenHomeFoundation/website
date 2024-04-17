@@ -125,7 +125,7 @@ description: Open Home Foundation
   </section>
   <section id="collaborations">
     <div class="container">
-              <div class="poly">{% include 'svg/poly/poly-home-collabs.svg' %}</div>
+      <div class="poly">{% include 'svg/poly/poly-home-collabs.svg' %}</div>
       <div class="grid">
         <div class="column col-s-12 col-m-6 col-m-offset-4">
           <h2 class="text-center text-branding-primary mb-32">
@@ -173,8 +173,15 @@ description: Open Home Foundation
     <div class="container">
       <h2 class="text-center text-light-grey mb-64">More news</h2>
       <div class="card">
-        <a class="image" href="/news/">
-          <img src="/assets/images/announcement/announcement-header.jpg" />
+        <a
+          class="image"
+          href="/news/"
+          aria-label="View the announcement blog post"
+        >
+          <img
+            src="/assets/images/announcement/announcement-header.jpg"
+            alt="Open Home Foundation, privacy, choice and sustainability for smart homes"
+          />
         </a>
         <div class="content">
           <p class="date">Saturday, April 20th 2024</p>
@@ -184,7 +191,11 @@ description: Open Home Foundation
             Home Foundation to secure the radical principles of privacy, choice,
             and sustainability for smart homes. Read more...
           </p>
-          <a class="button button-icon button-outline-light" href="/news/">
+          <a
+            class="button button-icon button-outline-light"
+            href="/news/"
+            aria-label="View the announcement blog post"
+          >
             {% include 'svg/arrow.svg' %}
           </a>
         </div>
