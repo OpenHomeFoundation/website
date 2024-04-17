@@ -16,11 +16,8 @@
   border: 1px solid transparent;
   background: rgba(9, 41, 59, 0.2);
   color: var(--light-grey-color);
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   text-decoration: none;
   text-align: center;
   width: 100%;
@@ -41,11 +38,14 @@
 }
 
 #intro p {
-  font-family: Biotif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  #intro p {
+    font-size: 32px;
+  }
 }
 
 /* Principles section */
@@ -174,29 +174,20 @@
 }
 
 #news-block .card .date {
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 8px;
 }
 
 #news-block .card .title {
-  font-family: Biotif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   margin-bottom: 32px;
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(237, 236, 237, 0.5);
 }
 
 #news-block .card .description {
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }

@@ -5,6 +5,16 @@
   padding-bottom: 80x;
 }
 
+#how-we-are-funded h1 {
+  font-size: 56px;
+}
+
+@media (min-width: 768px) {
+  #how-we-are-funded h1 {
+    font-size: 64px;
+  }
+}
+
 /* Support our work section */
 
 #support-our-work {
@@ -54,20 +64,14 @@
 
 #board-members .member .name {
   text-align: center;
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 #board-members .member .role {
   text-align: center;
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   color: var(--secondary-text-color);
 }
 
@@ -116,20 +120,14 @@
 
 #faq .question {
   color: var(--primary-color);
-  font-family: Biotif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 #faq .answer {
   color: var(--grey-color);
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 #faq .answer p {

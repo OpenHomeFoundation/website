@@ -47,11 +47,8 @@
 .footer-header ul li a {
   text-decoration: none;
   color: var(--primary-text-color);
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .footer-actions {
@@ -76,11 +73,8 @@
 }
 
 .footer-action p {
-  font-family: Biotif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 24px;
 }
 
@@ -100,11 +94,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 0;
-  font-family: Biotif;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   gap: 8px 32px;
 }
 

@@ -14,10 +14,17 @@
   margin: 0;
 }
 
+#about-intro h1 {
+  font-family: Biotif;
+  font-size: 64px;
+  font-weight: 800;
+}
+
 @media (max-width: 767px) {
   #about-intro h1 {
     margin-left: -24px;
     margin-right: -24px;
+    font-size: 56px;
   }
 }
 
@@ -71,11 +78,15 @@
 }
 
 #about-quote .quote {
-  font-family: Biotif;
-  font-size: 51px;
+  font-size: 32px;
   font-style: italic;
   font-weight: 300;
-  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  #about-quote .quote {
+    font-size: 56px;
+  }
 }
 
 #about-quote .author {
@@ -85,19 +96,13 @@
 }
 
 #about-quote .author .name {
-  font-family: Biotif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 #about-quote .author .role {
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 #about-quote .quote:before {
@@ -108,7 +113,6 @@
   font-size: 516px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin-bottom: -300px;
   margin-top: 50px;
   opacity: 0.8;
@@ -360,11 +364,8 @@
 }
 
 #values .big-subtitle {
-  font-family: Biotif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 #values .item {

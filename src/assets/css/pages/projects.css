@@ -4,12 +4,9 @@
 }
 
 #project-intro p {
-  /* Big Subtitle */
   font-family: Biotif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   color: var(--light-grey-color);
 }
 
@@ -19,12 +16,8 @@
 }
 
 #projects p {
-  /* Big Subtitle */
-  font-family: Biotif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   color: var(--light-grey-color);
 }
 
@@ -42,11 +35,8 @@
 }
 
 #projects .project-card p {
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin-bottom: 24px;
 }
 
@@ -61,12 +51,8 @@
 }
 
 #collabs p {
-  /* Big Subtitle */
-  font-family: Biotif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   color: var(--light-grey-color);
 }
 
@@ -107,11 +93,8 @@
 }
 
 #collabs .collab-card p {
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin-bottom: 24px;
 }
 
@@ -126,12 +109,8 @@
 }
 
 #standards p {
-  /* Big Subtitle */
-  font-family: Biotif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   color: var(--light-grey-color);
 }
 

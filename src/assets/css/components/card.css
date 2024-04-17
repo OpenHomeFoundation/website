@@ -18,11 +18,8 @@
 .card .card-content {
   padding: 52px 32px;
   color: var(--secondary-text-color);
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   display: flex;
   flex-direction: column;
   gap: 24px;

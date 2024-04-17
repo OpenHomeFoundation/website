@@ -5,11 +5,8 @@
 }
 
 #news-header p {
-  font-family: Biotif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 #post {
@@ -26,11 +23,8 @@
 #post .date {
   color: var(--grey-color);
   text-align: center;
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 128px;
 }
 
@@ -49,29 +43,20 @@
 
 #post .content p {
   margin-bottom: 16px;
-  font-family: Biotif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 #post .content h2 {
-  font-family: Biotif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 40px;
   margin-top: 60px;
 }
 
 #post .content h3 {
-  font-family: Biotif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 32px;
   margin-top: 32px;
 }
@@ -98,9 +83,6 @@
 
 #post .author .role {
   color: var(--secondary-text-color);
-  font-family: Biotif;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
