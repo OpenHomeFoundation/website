@@ -9,6 +9,7 @@ body {
 }
 
 .bg-gradient-home {
+  overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
     url("/assets/images/gradients/gradient-home.jpg") var(--light-grey-color);
@@ -18,6 +19,7 @@ body {
 }
 
 .bg-gradient-about-header {
+  overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
     url("/assets/images/gradients/gradient-about-header.jpg")
@@ -28,6 +30,7 @@ body {
 }
 
 .bg-gradient-about-closing {
+  overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
     url("/assets/images/gradients/gradient-about-closing.jpg")
@@ -38,6 +41,7 @@ body {
 }
 
 .bg-gradient-organization {
+  overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
     url("/assets/images/gradients/gradient-organization.jpg")
@@ -48,6 +52,7 @@ body {
 }
 
 .bg-gradient-project {
+  overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
     url("/assets/images/gradients/gradient-project.jpg") var(--dark-blue-color);
@@ -57,22 +62,27 @@ body {
 }
 
 .bg-linear-gradient-dark-blue {
+  overflow: hidden;
   background: linear-gradient(180deg, #09293b 21.38%, #18bcf2 151.43%);
 }
 
 .bg-dark-blue {
+  overflow: hidden;
   background-color: var(--dark-blue-color);
 }
 
 .bg-primary {
+  overflow: hidden;
   background-color: var(--primary-background-color);
 }
 
 .bg-secondary {
+  overflow: hidden;
   background-color: var(--secondary-background-color);
 }
 
 .bg-branding-primary {
+  overflow: hidden;
   background-color: var(--primary-color);
 }
 
