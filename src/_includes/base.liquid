@@ -6,12 +6,10 @@ Open Home Foundation
 {%- endif-%}
 {%- endcapture %}
 
-{% capture body_class -%} 
-{%- if page.fileSlug != "" -%}
-page-{{ page.fileSlug }}
-{%- else -%}
-page-index
-{%- endif-%}
+{% capture description -%}
+The Open Home Foundation fights for the fundamental principles of privacy, choice, and sustainability for smart homes.
+And for every person who lives in one. It does this by supporting the development of open-source projects, and open
+connectivity and communication standards.
 {%- endcapture %}
 
 <!doctype html>
@@ -22,6 +20,8 @@ page-index
     <meta name="description" content="{{ description }}">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="{{ full_title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="/assets/images/opengraph.jpg">
     <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@ page-index
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
     <script src="/assets/js/nav-menu.js" defer></script>
   </head>
-  <body class="{{ body_class }}">
+  <body>
     <header>{% include 'components/navbar' %}</header>
 
     <div class="content">{{ content }}</div>
