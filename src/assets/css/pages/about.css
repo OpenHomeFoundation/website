@@ -206,6 +206,13 @@
   background: var(--primary-color);
   padding: 10px;
   z-index: 2;
+  width: 320px;
+}
+
+@media (max-width: 767px) {
+  #story .content .part-1 .initial-commit img {
+    max-width: 85%;
+  }
 }
 
 #story .content .part-1 .initial-commit .dot-1 {
