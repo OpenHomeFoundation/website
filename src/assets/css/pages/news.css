@@ -17,8 +17,14 @@
   padding-bottom: 120px;
 }
 
+#post .header-image {
+  width: 100%;
+  margin-bottom: 120px;
+  border-radius: 16px;
+}
+
 #post .date {
-  color: var(--secondary-text-color);
+  color: var(--grey-color);
   text-align: center;
   font-family: Biotif;
   font-size: 16px;
@@ -33,7 +39,7 @@
   content: "";
   height: 1px;
   width: 45px;
-  background-color: var(--secondary-text-color);
+  background-color: var(--grey-color);
   margin: 16px auto;
 }
 
@@ -70,10 +76,14 @@
   margin-top: 32px;
 }
 
-#post .content lite-youtube {
+#post .content lite-youtube,
+#post .content img,
+#post .content picture {
+  width: 100%;
   margin-bottom: 32px;
   display: block;
   margin-top: 32px;
+  border-radius: 16px;
 }
 
 #post .author {
