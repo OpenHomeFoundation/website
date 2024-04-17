@@ -56,6 +56,10 @@ body {
   background-repeat: repeat, no-repeat;
 }
 
+.bg-linear-gradient-dark-blue {
+  background: linear-gradient(180deg, #09293b 21.38%, #18bcf2 151.43%);
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue-color);
 }

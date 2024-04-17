@@ -49,3 +49,7 @@ h3 {
 .text-grey {
   color: var(--grey-color);
 }
+
+.text-light-grey {
+  color: var(--light-grey-color);
+}
