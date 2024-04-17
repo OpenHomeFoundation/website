@@ -6,6 +6,8 @@
 @import "global/grid.css";
 @import "global/flex.css";
 @import "global/margin.css";
+@import "global/animation.css";
+@import "global/poly.css";
 
 @import "components/navbar.css";
 @import "components/footer.css";

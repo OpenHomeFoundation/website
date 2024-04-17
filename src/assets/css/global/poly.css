@@ -1,0 +1,14 @@
+.poly {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  mix-blend-mode: soft-light;
+  animation-name: spin;
+  animation-duration: 400000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  aspect-ratio: 1 / 1;
+  pointer-events: none;
+  opacity: 0.5;
+}

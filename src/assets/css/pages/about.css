@@ -3,6 +3,7 @@
 #about-intro {
   padding-top: 250px;
   padding-bottom: 100px;
+  color: var(--light-grey-color);
 }
 
 #about-intro .text-slider {
@@ -65,11 +66,11 @@
   }
 }
 
-#about-intro {
+#about-quote {
   color: var(--light-grey-color);
 }
 
-#about-intro .quote {
+#about-quote .quote {
   font-family: Biotif;
   font-size: 51px;
   font-style: italic;
@@ -77,13 +78,13 @@
   line-height: normal;
 }
 
-#about-intro .author {
+#about-quote .author {
   padding: 32px;
   border-top: 1px solid var(--light-grey-color);
   width: auto;
 }
 
-#about-intro .author .name {
+#about-quote .author .name {
   font-family: Biotif;
   font-size: 24px;
   font-style: normal;
@@ -91,7 +92,7 @@
   line-height: normal;
 }
 
-#about-intro .author .role {
+#about-quote .author .role {
   font-family: Biotif;
   font-size: 16px;
   font-style: normal;
@@ -99,7 +100,7 @@
   line-height: normal;
 }
 
-#about-intro .quote:before {
+#about-quote .quote:before {
   content: "“";
   display: block;
   text-align: center;
@@ -398,6 +399,7 @@
   padding-top: 140px;
   padding-bottom: 100px;
   color: var(--light-grey-color);
+  overflow: hidden;
 }
 
 #about-conclusion .content-title {
