@@ -2,14 +2,13 @@
   <div class="container">
     <div class="footer-content">
       <div class="footer-header">
-        <a href="/">
-          <img
-            class="logo"
-            src="/assets/images/logo/open-home-foundation-dark.svg"
-            alt="Open Home Foundation"
-          >
+        <a href="/" aria-label="Open Home Foundation" class="logo">
+          {% include 'svg/open-home-foundation-logo.svg' %}
         </a>
         <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
           <li>
             <a href="/about/">About us</a>
           </li>
@@ -20,7 +19,7 @@
             <a href="/projects/">Project & members</a>
           </li>
           <li>
-            <a href="/project/">Support us</a>
+            <a href="/projects/#support-our-work">Support us</a>
           </li>
         </ul>
       </div>
@@ -69,6 +68,7 @@
       </div>
       <div class="footer-bottom">
         <p>Copyright © 2024 Open Home Foundation</p>
+        <span></span>
         <p><strong>Open Home Foundation</strong> | 6345 Neuheim | Switzerland</p>
       </div>
     </div>
