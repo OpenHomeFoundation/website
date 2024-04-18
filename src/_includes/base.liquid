@@ -10,9 +10,9 @@ Open Home Foundation
 {%- if description -%}
 {{ description }}
 {%- else -%}
-The Open Home Foundation fights for the fundamental principles of privacy, choice, and sustainability for smart homes.
-And for every person who lives in one. It does this by supporting the development of open-source projects, and open
-connectivity and communication standards.
+The Open Home Foundation fights for the principles of privacy, choice, and sustainability for smart homes. And for every
+person who lives in one. It does this by supporting the development of open-source projects, and open connectivity and
+communication standards.
 {%- endif-%}
 
 {%- endcapture %}
@@ -26,7 +26,7 @@ connectivity and communication standards.
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:description" content="{{ full_description }}">
-    <meta property="og:image" content="/assets/images/opengraph.jpg">
+    <meta property="og:image" content="{{ og_image | default: '/assets/images/opengraph.jpg' }}">
     <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
