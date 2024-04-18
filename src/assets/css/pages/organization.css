@@ -15,6 +15,21 @@
   }
 }
 
+#how-we-are-funded p {
+  width: 100%;
+}
+
+#how-we-are-funded .read-more {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#how-we-are-funded .read-more a {
+  text-decoration: underline;
+  color: inherit;
+}
+
 /* Support our work section */
 
 #support-our-work {

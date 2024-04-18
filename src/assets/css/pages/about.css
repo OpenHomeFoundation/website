@@ -349,6 +349,10 @@
   margin-right: -80px;
 }
 
+#story .content .part-2 a {
+  color: inherit;
+}
+
 @media (max-width: 767px) {
   #story .content .part-2 .text {
     margin: 0 -24px;
