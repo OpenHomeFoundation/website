@@ -34,7 +34,8 @@
 }
 
 .navbar .navbar-bar .logo {
-  width: 87px;
+  display: block;
+  width: 124px;
   transition: height 120ms ease-in-out;
 }
 
