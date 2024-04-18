@@ -33,8 +33,7 @@
 }
 
 .navbar .navbar-bar .logo {
-  height: 58px;
-  padding: 16px;
+  width: 87px;
   transition: height 120ms ease-in-out;
 }
 
@@ -59,6 +58,7 @@
   font-weight: 400;
   padding: 8px 16px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .navbar .navbar-bar .menu .menu-item.active a {
@@ -84,7 +84,7 @@
 .navbar .navbar-bar .menu-button {
   display: flex;
   padding: 16px;
-  margin: 0 -16px;
+  margin: -16px;
   background: none;
   border: none;
   cursor: pointer;
