@@ -6,10 +6,15 @@ Open Home Foundation
 {%- endif-%}
 {%- endcapture %}
 
-{% capture description -%}
+{% capture full_description -%}
+{%- if description -%}
+{{ description }}
+{%- else -%}
 The Open Home Foundation fights for the fundamental principles of privacy, choice, and sustainability for smart homes.
 And for every person who lives in one. It does this by supporting the development of open-source projects, and open
 connectivity and communication standards.
+{%- endif-%}
+
 {%- endcapture %}
 
 <!doctype html>
@@ -17,10 +22,10 @@ connectivity and communication standards.
   <head>
     <meta charset="utf-8">
     <title>{{ full_title }}</title>
-    <meta name="description" content="{{ description }}">
+    <meta name="description" content="{{ full_description }}">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="{{ full_title }}">
-    <meta property="og:description" content="{{ description }}">
+    <meta property="og:description" content="{{ full_description }}">
     <meta property="og:image" content="/assets/images/opengraph.jpg">
     <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
