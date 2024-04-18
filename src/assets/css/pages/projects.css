@@ -115,6 +115,7 @@
 }
 
 #standards .standard-card {
+  position: relative;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -137,6 +138,13 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom: 16px;
+}
+
+#standards .standard-card svg {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  pointer-events: none;
 }
 
 #standards .standard-card p {
