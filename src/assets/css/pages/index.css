@@ -81,17 +81,64 @@
   flex-wrap: wrap;
 }
 
-#work .project {
+#work .main-projects {
   display: flex;
-  height: 92px;
-  padding: 32px;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+#work .main-projects img {
+  margin: 32px;
+  height: 50px;
+  width: auto;
+}
+
+#work .projects {
+  margin: 32px -24px 64px -24px;
+  --swiper-wrapper-transition-timing-function: linear;
+}
+
+@media (min-width: 768px) {
+  #work .projects {
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 10% 90%,
+      transparent 100%
+    );
+  }
+}
+
+#work .project {
+  position: relative;
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   gap: 10px;
   border-radius: 8px;
+  color: var(--light-grey-color);
+  font-family: Biotif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   border: 1px solid var(--light-grey-color);
   background: rgba(237, 236, 237, 0.2);
+  width: auto;
+  text-decoration: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+#work .project:hover,
+#work .project:focus-visible {
+  background-color: rgba(9, 41, 59, 0.5);
+  border: 1px solid var(--grey-color);
 }
 
 /* Collaborations section */

@@ -104,21 +104,101 @@ layout: base
           </p>
         </div>
       </div>
-      <div class="projects mb-32">
-        <div class="project">
+      <div class="main-projects">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.home-assistant.io/"
+          aria-label="Vist Home Assistant website"
+        >
           <img
-            src="/assets/images/projects/home-assistant.svg"
+            src="/assets/images/logo/home-assistant.svg"
             alt="Home Assistant"
           />
-        </div>
-        <div class="project">
-          <img src="/assets/images/projects/esphome.svg" alt="ESPHome" />
-        </div>
-        <div class="project">
-          <img src="/assets/images/projects/zigpy.svg" alt="Zigpy" />
-        </div>
-        <div class="project">
-          <img src="/assets/images/projects/piper.svg" alt="Piper" />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://esphome.io/"
+          aria-label="Vist ESPHome website"
+        >
+          <img src="/assets/images/logo/esphome.svg" alt="ESPHome" />
+        </a>
+      </div>
+      <div class="projects swiper mb-32">
+        <div class="swiper-wrapper">
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/rhasspy/wyoming"
+          >
+            <span>Wyoming</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://bthome.io/"
+          >
+            <span>BTHome</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.improv-wifi.com/"
+          >
+            <span>Improve Wi-Fi</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zigpy/zigpy"
+          >
+            <span>Zigpy</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zigpy/zigpy"
+          >
+            <span>Python Matter Server</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/rhasspy/piper"
+          >
+            <span>Piper</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://esphome.github.io/esp-web-tools/"
+          >
+            <span>ESP Web Tools</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+          <a
+            class="project swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/home-assistant-libs/pychromecast"
+          >
+            <span>PyChromcast</span>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
         </div>
       </div>
     </div>
@@ -211,3 +291,4 @@ layout: base
     </div>
   </section>
 </div>
+<script src="/assets/js/index.js" defer></script>
