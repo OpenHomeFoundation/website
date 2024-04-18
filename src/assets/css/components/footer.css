@@ -49,12 +49,14 @@
   color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 .footer-actions {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   gap: 48px 16px;
   align-items: center;
 }
@@ -97,6 +99,7 @@
   font-size: 12px;
   font-weight: 400;
   gap: 8px 32px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
