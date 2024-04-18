@@ -45,6 +45,15 @@
   margin-bottom: 24px;
 }
 
+#projects .project-card .actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 #collabs {
   padding-top: 100px;
   padding-bottom: 100px;

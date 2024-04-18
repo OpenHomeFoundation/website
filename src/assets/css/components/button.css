@@ -86,3 +86,14 @@
   color: var(--dark-blue-color);
   border-color: var(--light-grey-color);
 }
+
+.button-dark-blue {
+  background-color: var(--dark-blue-color);
+  color: var(--light-grey-color);
+  border-color: var(--dark-blue-color);
+}
+.button-dark-blue:focus-visible,
+.button-dark-blue:hover {
+  background-color: transparent;
+  color: var(--dark-blue-color);
+}
