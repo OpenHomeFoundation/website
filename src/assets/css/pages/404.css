@@ -1,0 +1,7 @@
+#not-found {
+  padding: 200px 0;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
