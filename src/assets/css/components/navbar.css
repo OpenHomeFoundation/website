@@ -15,7 +15,8 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  background: rgba(237, 236, 237, 0.7);
+  background: rgba(237, 236, 237, 0.9);
+  background-blend-mode: screen;
   width: 100%;
   margin: auto;
   backdrop-filter: blur(10px);
@@ -51,6 +52,7 @@
 }
 
 .navbar .navbar-bar .menu .menu-item a {
+  position: relative;
   color: var(--primary-text-color);
   text-align: center;
   font-family: Biotif;
@@ -59,6 +61,28 @@
   padding: 8px 16px;
   text-decoration: none;
   display: inline-block;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-bar .menu .menu-item a:after {
+  display: block;
+  height: 2px;
+  border-radius: 2px;
+  width: 100%;
+  background: var(--primary-text-color);
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 180ms ease-in-out;
+}
+
+.navbar .navbar-bar .menu .menu-item a:focus-visible:after {
+  opacity: 1;
 }
 
 .navbar .navbar-bar .menu .menu-item.active a {
