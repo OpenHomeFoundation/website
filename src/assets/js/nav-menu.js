@@ -28,3 +28,8 @@ document.addEventListener("click", (e) => {
     closeMenu();
   }
 });
+
+document.querySelector('.navbar .logo').addEventListener('contextmenu', function(ev) {
+  ev.preventDefault();
+  document.location.assign("https://drive.google.com/drive/folders/1JYEfxUFdjjGFcmoq4hgLwIazmDmOxd3a")
+});
