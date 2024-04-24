@@ -7,10 +7,12 @@ html {
   --light-blue-color: #18bcf2;
   --red-color: #dc5956;
   --green-color: #c8dd69;
+  --dark-green-color: #a2c507;
 
   --primary-color: var(--light-blue-color);
   --secondary-color: var(--red-color);
   --tertiary-color: var(--green-color);
+  --dark-tertiary-color: var(--dark-green-color);
 
   --on-primary-color: var(--light-grey-color);
   --on-secondary-color: var(--light-grey-color);

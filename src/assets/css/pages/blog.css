@@ -9,6 +9,11 @@
   font-weight: 500;
 }
 
+#news-header h1 {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--light-grey-color);
+}
+
 #post {
   padding-top: 120px;
   padding-bottom: 120px;

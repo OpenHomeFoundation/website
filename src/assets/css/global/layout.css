@@ -6,6 +6,7 @@ body {
   font-family: Biotif;
   font-weight: 400;
   font-feature-settings: "ss91", "ss02";
+  color: var(--primary-text-color);
 }
 
 .bg-gradient-home {

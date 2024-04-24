@@ -46,6 +46,10 @@ h3 {
   color: var(--tertiary-color);
 }
 
+.text-branding-dark-tertiary {
+  color: var(--dark-tertiary-color);
+}
+
 .text-grey {
   color: var(--grey-color);
 }

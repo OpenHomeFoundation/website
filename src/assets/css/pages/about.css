@@ -75,6 +75,7 @@
 
 #about-quote {
   color: var(--light-grey-color);
+  padding-bottom: 120px;
 }
 
 #about-quote .quote {
@@ -389,7 +390,7 @@
 }
 
 #values .item.tertiary {
-  border-color: var(--tertiary-color);
+  border-color: var(--dark-tertiary-color);
 }
 
 #values .item img {
