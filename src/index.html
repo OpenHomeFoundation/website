@@ -8,7 +8,10 @@ layout: base
       <div class="poly">{% include 'svg/poly/poly.svg' %}</div>
       <div class="grid">
         <div class="column col-s-12 col-m-offset-3 col-m-8">
-          <a href="/blog/announcing-the-open-home-foundation/" class="announcement mb-96">
+          <a
+            href="/blog/announcing-the-open-home-foundation/"
+            class="announcement mb-96"
+          >
             {% include 'svg/mark-email-unread.svg' %}
             <span>
               Announcing the Open Home Foundation | From the creators of Home
@@ -95,10 +98,14 @@ layout: base
         <div class="col-s-12 col-m-6 col-m-offset-4">
           <h2 class="text-center text-branding-primary mb-64">Our work</h2>
           <p class="text-center text-grey p-16 mb-32">
-            The Open Home Foundation owns and governs over <strong>240 open-source projects, standards, drivers, and libraries</strong> like Home
-            Assistant, ESPHome, Zigpy, Piper, and more.
-            <br /><br />
-            In the future, we aim to play a greater role as a political advocate for smart home privacy, choice, and sustainability.
+            The Open Home Foundation owns and governs over
+            <strong
+              >240 open-source projects, standards, drivers, and
+              libraries</strong
+            >
+            like <i>Home Assistant</i>, <i>ESPHome</i>, <i>Zigpy</i>, <i>Piper</i>, and more. <br /><br />
+            In the future, we aim to play a greater role as a political advocate
+            for smart home privacy, choice, and sustainability.
           </p>
         </div>
       </div>
@@ -123,80 +130,82 @@ layout: base
           <img src="/assets/images/logo/esphome.svg" alt="ESPHome" />
         </a>
       </div>
-      <div class="projects swiper mb-32">
-        <div class="swiper-wrapper">
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/rhasspy/wyoming"
-          >
-            <span>Wyoming</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://bthome.io/"
-          >
-            <span>BTHome</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.improv-wifi.com/"
-          >
-            <span>Improv Wi-Fi</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zigpy/zigpy"
-          >
-            <span>Zigpy</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/home-assistant-libs/python-matter-server"
-          >
-            <span>Python Matter Server</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/rhasspy/piper"
-          >
-            <span>Piper</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://esphome.github.io/esp-web-tools/"
-          >
-            <span>ESP Web Tools</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
-          <a
-            class="project swiper-slide"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/home-assistant-libs/pychromecast"
-          >
-            <span>PyChromecast</span>
-            {% include 'svg/arrow_outward.svg' %}
-          </a>
+      <div class="projects-container">
+        <div class="projects swiper mb-32">
+          <div class="swiper-wrapper">
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/rhasspy/wyoming"
+            >
+              <span>Wyoming</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://bthome.io/"
+            >
+              <span>BTHome</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.improv-wifi.com/"
+            >
+              <span>Improv Wi-Fi</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/zigpy/zigpy"
+            >
+              <span>Zigpy</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/home-assistant-libs/python-matter-server"
+            >
+              <span>Python Matter Server</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/rhasspy/piper"
+            >
+              <span>Piper</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://esphome.github.io/esp-web-tools/"
+            >
+              <span>ESP Web Tools</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+            <a
+              class="project swiper-slide"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/home-assistant-libs/pychromecast"
+            >
+              <span>PyChromecast</span>
+              {% include 'svg/arrow_outward.svg' %}
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -214,15 +223,17 @@ layout: base
       <div class="poly">{% include 'svg/poly/poly-home-collabs.svg' %}</div>
       <div class="grid">
         <div class="column col-s-12 col-m-6 col-m-offset-4">
-          <h2 class="text-center text-branding-primary mb-32">
-            Our collabs
-          </h2>
+          <h2 class="text-center text-branding-primary mb-32">Our collabs</h2>
           <p class="text-center text-grey mb-32 p-16">
-            Thanks to support from our partner Nabu Casa, we also collaborate on
+            Thanks to support from our partner <strong>Nabu Casa</strong>, we also collaborate on
             external member projects that align with our principles. These
-            include Z-Wave JS, WLED, Rhasspy, and Zigbee2MQTT.
+            include <i>Z-Wave JS</i>, <i>WLED</i>, <i>Rhasspy</i>, and <i>Zigbee2MQTT</i>.
           </p>
-          <a class="button" href="/projects/#collabs" aria-label="Learn more about what we do">
+          <a
+            class="button"
+            href="/projects/#collabs"
+            aria-label="Learn more about what we do"
+          >
             Learn more
           </a>
         </div>

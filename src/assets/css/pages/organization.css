@@ -22,7 +22,7 @@
 #how-we-are-funded .read-more {
   margin-top: 8px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #how-we-are-funded .read-more a {
@@ -86,7 +86,7 @@
 #board-members .member .role {
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--secondary-text-color);
 }
 
@@ -142,7 +142,7 @@
 #faq .answer {
   color: var(--grey-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #faq .answer p {

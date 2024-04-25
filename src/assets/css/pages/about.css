@@ -17,7 +17,7 @@
 #about-intro h1 {
   font-family: Biotif;
   font-size: 64px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
@@ -98,12 +98,12 @@
 
 #about-quote .author .name {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #about-quote .author .role {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #about-quote .quote:before {
@@ -113,7 +113,7 @@
   font-family: "Black Han Sans";
   font-size: 516px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: -300px;
   margin-top: 50px;
   opacity: 0.8;

@@ -39,7 +39,7 @@
 
 #intro p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media (min-width: 768px) {
@@ -96,8 +96,11 @@
   width: auto;
 }
 
-#work .projects {
+#work .projects-container {
   margin: 32px -24px 64px -24px;
+}
+
+#work .projects {
   --swiper-wrapper-transition-timing-function: linear;
 }
 
@@ -128,7 +131,7 @@
   font-weight: 600;
   line-height: normal;
   border: 1px solid var(--light-grey-color);
-  background: rgba(237, 236, 237, 0.2);
+  background: rgba(237, 236, 237, 0.3);
   width: auto;
   text-decoration: none;
   outline: none;
@@ -236,5 +239,5 @@
 
 #news-block .card .description {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }

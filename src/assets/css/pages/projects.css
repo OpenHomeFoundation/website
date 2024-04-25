@@ -17,7 +17,7 @@
 
 #projects p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--light-grey-color);
 }
 
@@ -30,13 +30,13 @@
   justify-content: space-between;
   border-radius: 8px;
   border: 1px solid var(--grey-color);
-  background: rgba(237, 236, 237, 0.2);
+  background: rgba(237, 236, 237, 0.3);
   height: 100%;
 }
 
 #projects .project-card p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 24px;
 }
 
@@ -61,7 +61,7 @@
 
 #collabs p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--light-grey-color);
 }
 
@@ -91,7 +91,7 @@
   justify-content: space-between;
   border-radius: 8px;
   border: 1px solid var(--grey-color);
-  background: rgba(237, 236, 237, 0.2);
+  background: rgba(237, 236, 237, 0.3);
   height: 100%;
 }
 
@@ -103,7 +103,7 @@
 
 #collabs .collab-card p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 24px;
 }
 
@@ -119,7 +119,7 @@
 
 #standards p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--light-grey-color);
 }
 
@@ -132,7 +132,7 @@
   justify-content: space-between;
   border-radius: 8px;
   border: 1px solid var(--grey-color);
-  background: rgba(237, 236, 237, 0.2);
+  background: rgba(237, 236, 237, 0.3);
   height: 100%;
   color: var(--light-grey-color);
   text-decoration: none;
@@ -149,7 +149,7 @@
   margin-bottom: 16px;
 }
 
-#standards .standard-card svg {
+#standards .standard-card > svg {
   position: absolute;
   right: 32px;
   top: 32px;
@@ -160,7 +160,7 @@
   font-family: Biotif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   margin-bottom: 24px;
 }
@@ -184,7 +184,7 @@
   font-family: Biotif;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 

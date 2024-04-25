@@ -2,7 +2,7 @@ h1 {
   font-family: Biotif;
   font-size: 56px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -10,7 +10,7 @@ h2 {
   font-family: Biotif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -18,8 +18,12 @@ h3 {
   font-family: Biotif;
   font-size: 32px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
+}
+
+p strong {
+  font-weight: 600;
 }
 
 .text-center {

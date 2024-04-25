@@ -8,6 +8,8 @@
 .card .card-header {
   background: var(--light-grey-color);
   padding: 32px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .card .card-header img,
@@ -19,9 +21,9 @@
   padding: 52px 32px;
   color: var(--secondary-text-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
   align-items: center;
 }

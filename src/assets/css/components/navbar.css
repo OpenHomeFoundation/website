@@ -58,7 +58,7 @@
   text-align: center;
   font-family: Biotif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   padding: 8px 16px;
   text-decoration: none;
   display: inline-block;
@@ -87,13 +87,13 @@
 }
 
 .navbar .navbar-bar .menu .menu-item.active a {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .navbar .navbar-bar .button {
   font-family: Biotif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   padding: 8px 32px;
 }
@@ -140,11 +140,11 @@
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .navbar-menu-item.active a {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
