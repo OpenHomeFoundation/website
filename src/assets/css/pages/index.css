@@ -96,6 +96,16 @@
   width: auto;
 }
 
+#work .main-projects a {
+  transition: transform 180ms ease-in-out;
+  outline: none;
+}
+
+#work .main-projects a:hover,
+#work .main-projects a:focus-visible {
+  transform: scale(1.05);
+}
+
 #work .projects-container {
   margin: 32px -24px 64px -24px;
 }
