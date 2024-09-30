@@ -9,23 +9,23 @@ This website is automatically deployed with Cloudflare pages on each commit to t
 ## Badges
 This repository also contains the badges for various projects and partners to use with permission. Below are examples of how these are to be used in a repository.
 
-### OHF Collaborator
-[<img src="./badges/ohf-collaboration.png">](https://www.openhomefoundation.org/)
+### Collaborator
+[![A collaboration with the Open Home Foundation](./badges/ohf-collaboration.png)](https://www.openhomefoundation.org/)
 ```markdown
-[<img src="https://www.openhomefoundation.org/badges/ohf-collaboration.png">](https://www.openhomefoundation.org/)
+[![A collaboration with the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-collaboration.png)](https://www.openhomefoundation.org/)
 ```
-### OHF Library
-[<img src="./badges/ohf-library.png">](https://www.openhomefoundation.org/)
+### Library
+[![A library from the Open Home Foundation](./badges/ohf-library.png)](https://www.openhomefoundation.org/)
 ```markdown
-[<img src="https://www.openhomefoundation.org/badges/ohf-library.png">](https://www.openhomefoundation.org/)
+[![A library from the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-library.png)](https://www.openhomefoundation.org/)
 ```
-### OHF Open Standard
-[<img src="./badges/ohf-open-standard.png">](https://www.openhomefoundation.org/)
+### Open Standard
+[![An open standard from the Open Home Foundation](./badges/ohf-open-standard.png)](https://www.openhomefoundation.org/)
 ```markdown
-[<img src="https://www.openhomefoundation.org/badges/ohf-open-standard.png">](https://www.openhomefoundation.org/)
+[![An open standard from the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-open-standard.png)](https://www.openhomefoundation.org/)
 ```
-### OHF Project
-[<img src="./badges/ohf-project.png">](https://www.openhomefoundation.org/)
+### Project
+[![A project from the Open Home Foundation](./badges/ohf-project.png)](https://www.openhomefoundation.org/)
 ```markdown
-[<img src="https://www.openhomefoundation.org/badges/ohf-project.png">](https://www.openhomefoundation.org/)
+[![A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-project.png)](https://www.openhomefoundation.org/)
 ```
