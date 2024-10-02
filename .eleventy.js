@@ -11,6 +11,7 @@ module.exports = (eleventyConfig) => {
     "src/assets/images/": "assets/images/",
     "src/assets/favicon/*": "/",
     "src/robots.txt": "/robots.txt",
+    "badges/": "badges/",
   })
 
   //   --------------------- Passthrough CSS -----------------------
