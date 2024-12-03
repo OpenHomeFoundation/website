@@ -47,6 +47,72 @@
   }
 }
 
+/* Supporters */
+#supporters h2 {
+  margin: 0;
+}
+
+#supporters h2 + p{
+  font-size: 18px;
+  margin-top: 1rem;
+  text-wrap: balance;
+}
+
+#supporters .supporters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 3rem;
+  margin-top: 2rem;
+}
+
+#supporters .supporters .supporter {
+  max-width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#supporters .supporters .supporter .supporter-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 108px;
+  border-bottom: 1px solid #09293B;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+#supporters .supporters .supporter .supporter-name {
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: .25rem;
+}
+
+#supporters .supporters .supporter .supporter-badge {
+  background-color: #9CA0AB;
+  border-radius: 40px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 5px 12px;
+}
+
+#supporters .supporters .supporter .supporter-info {
+  text-align: center;
+  color: #595D66;
+  padding-top: 2rem ;
+}
+
+@media (min-width: 768px) {
+  #supporters h2 + p {
+    font-size: 24px;
+  }
+  
+  #supporters .supporters {
+    margin-top: 4rem;
+  }
+}
+
 /* Board members */
 
 #board-members {
