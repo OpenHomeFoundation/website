@@ -58,9 +58,11 @@
 #principles .card .card-header svg {
   fill: var(--primary-color);
 }
+
 #principles .card .card-header.secondary svg {
   fill: var(--secondary-color);
 }
+
 #principles .card .card-header.tertiary svg {
   fill: var(--tertiary-color);
 }
@@ -116,12 +118,10 @@
 
 @media (min-width: 768px) {
   #work .projects {
-    mask-image: linear-gradient(
-      to right,
-      transparent 0%,
-      black 10% 90%,
-      transparent 100%
-    );
+    mask-image: linear-gradient(to right,
+        transparent 0%,
+        black 10% 90%,
+        transparent 100%);
   }
 }
 
@@ -209,13 +209,18 @@
   border-radius: 16px;
   border: 1px solid rgba(237, 236, 237, 0.5);
   background: rgba(237, 236, 237, 0.1);
-  gap: 64px;
+  gap: 32px 64px;
 }
 
 @media (min-width: 768px) {
   #news-block .card {
     flex-direction: row;
   }
+}
+
+#news-block .card .image {
+  flex-basis: 55%;
+  flex-shrink: 0;
 }
 
 #news-block .card .image img {
