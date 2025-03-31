@@ -1,4 +1,4 @@
-{% capture full_title -%} 
+{% capture full_title -%}
 {%- if title -%}
 {{ title }} – Open Home Foundation
 {%- else -%}
@@ -27,14 +27,14 @@ communication standards.
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:description" content="{{ full_description }}">
     <meta property="og:image" content="{{ og_image | default: '/assets/images/opengraph.jpg' }}">
-    <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ "/assets/swiper-bundle.min.css" | cacheKey }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | cacheKey }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
-    <script src="/assets/js/nav-menu.js" defer></script>
+    <script src="{{ "/assets/js/nav-menu.js" | cacheKey }}" defer></script>
   </head>
   <body>
     <header>{% include 'components/navbar' %}</header>

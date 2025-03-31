@@ -4,6 +4,7 @@ module.exports = (eleventyConfig) => {
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(require("./config/css-config.js"));
   eleventyConfig.addPlugin(require("./config/js-config.js"));
+  eleventyConfig.addPlugin(require("./config/cache-bust.js"));
 
   // 	--------------------- Passthrough Assets -----------------------
   eleventyConfig.addPassthroughCopy({
