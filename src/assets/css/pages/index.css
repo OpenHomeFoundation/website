@@ -58,9 +58,11 @@
 #principles .card .card-header svg {
   fill: var(--primary-color);
 }
+
 #principles .card .card-header.secondary svg {
   fill: var(--secondary-color);
 }
+
 #principles .card .card-header.tertiary svg {
   fill: var(--tertiary-color);
 }
@@ -116,12 +118,10 @@
 
 @media (min-width: 768px) {
   #work .projects {
-    mask-image: linear-gradient(
-      to right,
-      transparent 0%,
-      black 10% 90%,
-      transparent 100%
-    );
+    mask-image: linear-gradient(to right,
+        transparent 0%,
+        black 10% 90%,
+        transparent 100%);
   }
 }
 
