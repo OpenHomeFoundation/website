@@ -7,7 +7,6 @@ module.exports = function (eleventyConfig) {
         const relativeUrl = "./dist/" + ((urlPart.charAt(0) == "/") ? urlPart.substring(1) : urlPart);
 
         try {
-
             const fileStats = fs.statSync(relativeUrl);
 
             const dateTimeModified = Math.floor(fileStats.mtime.getTime() / 1000);
