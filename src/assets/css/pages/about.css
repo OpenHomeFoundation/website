@@ -6,6 +6,35 @@
   color: var(--light-grey-color);
 }
 
+
+#about-intro .announcement {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: nowrap;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  background: rgba(9, 41, 59, 0.2);
+  color: var(--light-grey-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  transition:
+    border-color 180ms ease-in-out,
+    background-color 180ms ease-in-out;
+  outline: none;
+}
+
+#about-intro .announcement:focus-visible,
+#about-intro .announcement:hover {
+  border-color: var(--light-grey-color);
+  background-color: rgba(9, 41, 59, 0.3);
+}
+
 #about-intro .text-slider {
   display: inline-block;
   height: 1.8em;
@@ -80,6 +109,7 @@
 
 #about-quote {
   color: var(--light-grey-color);
+  padding-bottom: 120px;
 }
 
 #about-quote .quote {
