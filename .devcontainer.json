@@ -1,0 +1,41 @@
+{
+	"name": "OpenHomeFoundation/website",
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"forwardPorts": [
+		8080
+	],
+	"portsAttributes": {
+		"8080": {
+			"label": "Preview"
+		}
+	},
+	"postCreateCommand": {
+		"node": ". ${NVM_DIR}/nvm.sh && nvm install && nvm alias default $(cat .nvmrc) && npm install"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "default"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"yzhang.markdown-all-in-one",
+				"davidanson.vscode-markdownlint"
+			],
+			"settings": {
+				"editor.formatOnPaste": false,
+				"editor.formatOnSave": true,
+				"editor.formatOnType": true,
+				"[html]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"files.trimTrailingWhitespace": true
+			}
+		}
+	}
+}
