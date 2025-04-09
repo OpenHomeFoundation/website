@@ -82,7 +82,7 @@
 
 #supporters .standard-card .tags>span {
   display: flex;
-  padding: 8px 12px 6px 12px;
+  padding: 8px 12px 8px 12px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -117,12 +117,18 @@
 }
 
 #supporters p.subtitle,
+#who-we-support p.subtitle,
 #powering-our-mission p.subtitle {
   color: var(--dark-grey-color);
   font-size: 24px;
   font-weight: 300;
 }
 
+#who-we-support {
+  padding-top: 60px;
+}
+
+#who-we-support .project,
 #powering-our-mission .project {
   position: relative;
   display: flex;
@@ -146,11 +152,27 @@
   transition: background-color 0.3s;
 }
 
+#who-we-support .project span,
 #powering-our-mission .project span {
   flex-grow: 1;
 }
 
+#who-we-support .project>svg #arrow_outward_2,
 #powering-our-mission .project>svg #arrow_outward_2,
+#who-we-support .project>svg rect,
 #powering-our-mission .project>svg rect {
   fill: var(--dark-blue-color);
+}
+
+#who-we-support h2.larger,
+#powering-our-mission h2.larger {
+  font-size: 56px;
+}
+
+@media (min-width: 768px) {
+
+  #who-we-support h2.larger,
+  #powering-our-mission h2.larger {
+    font-size: 64px;
+  }
 }
