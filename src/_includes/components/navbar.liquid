@@ -16,10 +16,13 @@
           <a href="/about/">About us</a>
         </li>
         <li class="menu-item {% if page.url == '/organization/' %}active{% endif %}">
-          <a href="/organization/">How we are organized</a>
+          <a href="/organization/">Structure</a>
         </li>
         <li class="menu-item {% if page.url == '/projects/' %}active{% endif %}">
-          <a href="/projects/">Projects & members</a>
+          <a href="/projects/">Projects</a>
+        </li>
+        <li class="menu-item {% if page.url == '/supporters/' %}active{% endif %}">
+          <a href="/supporters/">Supporters</a>
         </li>
         <li class="menu-item">
           <a href="https://newsletter.openhomefoundation.org/" target="_blank">News</a>
@@ -29,7 +32,13 @@
         </li>
       </ul>
       <a href="/organization/#support-our-work" class="button">Support us</a>
-      <button class="menu-button" id="navbar-menu-button" aria-haspopup="true" aria-controls="navbar-menu" aria-label="Toggle menu">
+      <button
+        class="menu-button"
+        id="navbar-menu-button"
+        aria-haspopup="true"
+        aria-controls="navbar-menu"
+        aria-label="Toggle menu"
+      >
         {% include 'svg/menu.svg' %}
       </button>
     </div>
@@ -41,10 +50,13 @@
         <a href="/about/">About us</a>
       </li>
       <li class="navbar-menu-item {% if page.url == '/organization/' %}active{% endif %}">
-        <a href="/organization/">How we are organized</a>
+        <a href="/organization/">Structure</a>
       </li>
-      <li class="navbar-menu-item {% if page.url == '/project/' %}active{% endif %}">
-        <a href="/projects/">Projects & members</a>
+      <li class="navbar-menu-item {% if page.url == '/projects/' %}active{% endif %}">
+        <a href="/projects/">Projects</a>
+      </li>
+      <li class="navbar-menu-item {% if page.url == '/supporters/' %}active{% endif %}">
+        <a href="/supporters/">Supporters</a>
       </li>
       <li class="navbar-menu-item">
         <a href="https://newsletter.openhomefoundation.org/" target="_blank">News</a>
