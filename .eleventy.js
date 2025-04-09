@@ -6,8 +6,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(require("./config/js-config.js"));
 
   //   --------------------- Global Data -----------------------
-  eleventyConfig.addGlobalData("CACHE_KEY", btoa("" + new Date().valueOf()).replaceAll("=", ""));
-
+  eleventyConfig.addGlobalData("CACHE_KEY", Buffer.from(String(new Date().valueOf())).toString('base64').replaceAll("=", ""));
   // 	--------------------- Passthrough Assets -----------------------
   eleventyConfig.addPassthroughCopy({
     "src/assets/fonts/": "assets/fonts/",
