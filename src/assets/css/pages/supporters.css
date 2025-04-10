@@ -33,13 +33,11 @@
   margin-bottom: 30px;
 }
 
-
 @media (min-width: 768px) {
   #supporters .standard-card .supporter-logo {
     margin-bottom: 58px;
   }
 }
-
 
 #supporters .standard-card h3 {
   font-family: Biotif;
@@ -113,7 +111,7 @@
 
 #supporters .standard-card:hover,
 #supporters .standard-card:focus-visible {
-  background: rgba(237, 236, 237, 0.6);
+  background: rgba(237, 236, 237, 0.75);
 }
 
 #supporters p.subtitle,
@@ -155,6 +153,13 @@
 #who-we-support .project span,
 #powering-our-mission .project span {
   flex-grow: 1;
+}
+
+#who-we-support .project:hover,
+#who-we-support .project:focus-visible,
+#powering-our-mission .project:hover,
+#powering-our-mission .project:focus-visible {
+  background: rgba(237, 236, 237, 0.75);
 }
 
 #who-we-support .project>svg #arrow_outward_2,
