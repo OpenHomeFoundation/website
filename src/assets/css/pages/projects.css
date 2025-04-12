@@ -73,12 +73,10 @@
 @media (min-width: 768px) {
   #collabs .collab-container {
     margin: 24px -48px;
-    mask-image: linear-gradient(
-      to right,
-      transparent 0%,
-      black 10% 90%,
-      transparent 100%
-    );
+    mask-image: linear-gradient(to right,
+        transparent 0%,
+        black 10% 90%,
+        transparent 100%);
   }
 }
 
@@ -149,7 +147,7 @@
   margin-bottom: 16px;
 }
 
-#standards .standard-card > svg {
+#standards .standard-card>svg {
   position: absolute;
   right: 32px;
   top: 32px;
@@ -171,9 +169,9 @@
   gap: 8px;
 }
 
-#standards .standard-card .tags > span {
+#standards .standard-card .tags>span {
   display: flex;
-  padding: 8px 12px 6px 12px;
+  padding: 8px 12px 8px 12px;
   justify-content: center;
   align-items: center;
   gap: 10px;

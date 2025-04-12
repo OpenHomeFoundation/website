@@ -23,8 +23,7 @@ body {
   overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-about-header.jpg")
-      var(--secondary-color);
+    url("/assets/images/gradients/gradient-about-header.jpg") var(--secondary-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
@@ -34,8 +33,7 @@ body {
   overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-agreement-header.jpg")
-      var(--secondary-color);
+    url("/assets/images/gradients/gradient-agreement-header.jpg") var(--light-grey-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
@@ -45,8 +43,7 @@ body {
   overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-about-closing.jpg")
-      var(--primary-color);
+    url("/assets/images/gradients/gradient-about-closing.jpg") var(--primary-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
@@ -56,8 +53,7 @@ body {
   overflow: hidden;
   background:
     url("/assets/images/gradients/noise.png"),
-    url("/assets/images/gradients/gradient-organization.jpg")
-      var(--light-grey-color);
+    url("/assets/images/gradients/gradient-organization.jpg") var(--light-grey-color);
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
