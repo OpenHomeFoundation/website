@@ -24,6 +24,7 @@
 
 .footer-header a.logo svg {
   height: 40px;
+  width: auto;
   color: var(--primary-text-color);
   transition: color 120ms ease-in-out;
 }
@@ -51,6 +52,7 @@
   .footer-header {
     flex-direction: row;
   }
+
   .footer-header .logo {
     margin-right: 72px;
     height: 40px;
@@ -131,7 +133,8 @@
   .footer-bottom {
     flex-direction: row;
   }
-  .footer-bottom > * {
+
+  .footer-bottom>* {
     flex: 1;
   }
 }
