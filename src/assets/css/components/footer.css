@@ -117,6 +117,10 @@
   gap: 16px;
 }
 
+.footer-action .social-links svg {
+  height: 20px;
+}
+
 .footer-bottom {
   display: flex;
   flex-direction: column;
