@@ -52,7 +52,7 @@
   margin: 0;
 }
 
-#supporters h2 + p{
+#supporters h2+p {
   font-size: 18px;
   margin-top: 1rem;
   text-wrap: balance;
@@ -100,14 +100,14 @@
 #supporters .supporters .supporter .supporter-info {
   text-align: center;
   color: #595D66;
-  padding-top: 2rem ;
+  padding-top: 2rem;
 }
 
 @media (min-width: 768px) {
-  #supporters h2 + p {
+  #supporters h2+p {
     font-size: 24px;
   }
-  
+
   #supporters .supporters {
     margin-top: 4rem;
   }
@@ -184,7 +184,7 @@
 @media (min-width: 768px) {
   #board-members .members {
     gap: 24px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

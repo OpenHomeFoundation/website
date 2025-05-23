@@ -30,6 +30,10 @@ p strong {
   text-align: center;
 }
 
+.text-white {
+  color: var(--white-color);
+}
+
 .text-primary {
   color: var(--primary-text-color);
 }
