@@ -72,6 +72,8 @@
 #work {
   padding-top: 100px;
   padding-bottom: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 #work .projects {
