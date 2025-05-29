@@ -1,5 +1,5 @@
 const { resolve } = require("path");
-const { statSync } = require("fs");
+const { statSync, existsSync } = require("fs");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
@@ -23,14 +23,26 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addTransform("cache-buster", function (content, outputPath) {
-    const assetsDir = resolve(eleventyConfig.dir.output, "assets");
+    const assetsInputDir = resolve(eleventyConfig.dir.input, "assets");
+    const assetsOutputDir = resolve(eleventyConfig.dir.output, "assets");
     if (outputPath.endsWith(".html")) {
       return content.replace(
         /="\/assets\/([^"]+\.(css|js))"/g,
         function (_, matcher) {
           const filepath = matcher.split("?")[0];
-          const fileStat = statSync(resolve(assetsDir, filepath));
-          const timestamp = fileStat.mtime.getTime();
+          let timestamp
+
+          if (existsSync(resolve(assetsInputDir, filepath))) {
+            // These are our source files, so we use their modification time
+            timestamp = statSync(resolve(assetsInputDir, filepath)).mtime.getTime();
+          } else if (existsSync(resolve(assetsOutputDir, filepath))) {
+            // In cases where we are getting the output files from other places (like node_modules)
+            // we use the output directory's modification time.
+            timestamp = statSync(resolve(assetsOutputDir, filepath)).mtime.getTime();
+          } else {
+            throw new Error(`File not found: ${filepath}`);
+          }
+
           return `="/assets/${filepath}?v=${timestamp}"`;
         }
       );
