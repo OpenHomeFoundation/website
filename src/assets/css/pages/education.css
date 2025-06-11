@@ -1,0 +1,125 @@
+/* User research agreement section */
+
+#education-intro {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#education-intro .text-slider {
+    display: inline-block;
+    height: 1.8em;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#education-intro h1 {
+    font-family: Biotif;
+    font-size: 56px;
+    line-height: 1.1;
+    padding: 0 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    #education-intro h1 {
+        margin-left: -24px;
+        margin-right: -24px;
+        font-size: 56px;
+    }
+}
+
+#education-intro .text-slider ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    animation-name: text-slider;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+#education-intro .text-slider ul li {
+    display: block;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+@keyframes text-slider {
+
+    0%,
+    20% {
+        transform: translateY(0);
+        margin: 0 -30px;
+    }
+
+    25%,
+    45% {
+        transform: translateY(-20%);
+        margin: 0 -20px;
+    }
+
+    50%,
+    70% {
+        transform: translateY(-40%);
+        margin: 0;
+    }
+
+    75%,
+    95% {
+        transform: translateY(-60%);
+        margin: 0 -20px;
+    }
+
+    100% {
+        transform: translateY(-80%);
+        margin: 0 -30px;
+    }
+}
+
+#education-rights {
+    padding-bottom: 64px;
+}
+
+#education-rights .item {
+    gap: 24px 0;
+}
+
+#education-rights .item {
+    align-items: center;
+    margin-bottom: 0px;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#education-rights .item.primary {
+    border-color: var(--primary-text-color);
+}
+
+#education-rights .item.secondary {
+    border-color: var(--secondary-color);
+}
+
+#education-rights .item.tertiary {
+    border-color: var(--dark-tertiary-color);
+}
+
+#education-rights .item img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    #education-rights .item:nth-child(2n + 1)>img:first-child {
+        order: 1;
+    }
+
+    #education-rights .item img {
+        height: 100%;
+    }
+}
