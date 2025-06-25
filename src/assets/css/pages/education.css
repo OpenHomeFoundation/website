@@ -87,6 +87,10 @@
     gap: 24px 0;
 }
 
+#education-rights .item p+p {
+    margin-top: 16px;
+}
+
 #education-rights .item {
     align-items: center;
     margin-bottom: 0px;
