@@ -1,0 +1,22 @@
+sections:
+  - title: "Open Home Foundation Documents"
+    description: "This section contains various documents related to the Open Home Foundation that do not fit into the other categories."
+    documents:
+      - title: "Logo Guidelines"
+        description: "The logo is the key building of our identity, the primary visual element that identifies the Open Home Foundation."
+        link: "https://drive.google.com/file/d/1jqFOhUlbOHOtS1-gPVdz7I_ahXL2uo93/view?usp=drive_link"
+      - title: "Organizational regulations"
+        description: "The organizational regulations of the Open Home Foundation, outlining the structure and governance of the organization."
+        link: "https://drive.google.com/file/d/1V6hbUimpGNT9x5QXalmfZNF-BFTVTR8i/view?usp=drive_link"
+      - title: "Public Deed"
+        description: "The public deed of the Open Home Foundation, detailing its establishment and purpose."
+        link: "https://drive.google.com/file/d/1VXMNzDIJtm-df2-sM81_Yb4xk-RtmT99/view?usp=drive_link"
+  - title: "Working Group Documents"
+    description: "The Works with Home Assistant (WWHA) program is a certification program for products that integrate with Home Assistant. It ensures that products meet specific standards for quality and compatibility."
+    documents:
+      - title: "Working Group Regulations"
+        link: "https://drive.google.com/file/d/1y6zoFI4CZQMiPfPZqfph-RowAgPKJt_U/view?usp=drive_link"
+      - title: "Working Group resolution Infrastructure"
+        link: "https://drive.google.com/file/d/1ew39Q1inr1lrN7o-I_VXijsldUoXHmWo/view?usp=drive_link"
+      - title: "Working Group resolution Works with Home Assistant"
+        link: "https://drive.google.com/file/d/10B2mmADopdx7QBGZcyqzZYGpQX2UG4GF/view?usp=drive_link"

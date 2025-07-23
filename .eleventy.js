@@ -1,5 +1,6 @@
 const { resolve } = require("path");
 const { statSync, existsSync } = require("fs");
+const yaml = require("js-yaml");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
@@ -21,6 +22,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
     "node_modules/swiper/swiper-bundle.min.css": "assets/swiper-bundle.min.css",
   });
+
+  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
 
   eleventyConfig.addTransform("cache-buster", function (content, outputPath) {
     const assetsInputDir = resolve(eleventyConfig.dir.input, "assets");
@@ -52,6 +55,7 @@ module.exports = (eleventyConfig) => {
 
   return {
     dir: {
+      data: "../_data",
       input: "src",
       output: "dist",
     },

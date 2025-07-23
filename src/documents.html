@@ -1,0 +1,54 @@
+---
+layout: base
+title: Who supports our work
+---
+
+<div class="bg-gradient-agreement-header">
+  <section id="supporters">
+    <div class="container">
+      <div class="poly">{% include 'svg/poly/poly-thin.svg' %}</div>
+      <div class="grid">
+        <div class="content col-s-12 col-m-8 col-m-offset-3">
+          <h1 class="text-center mb-24">Documents</h1>
+          <p class="text-center mb-24 subtitle">
+            The Open Home Foundation is committed to transparency and sharing
+            knowledge. We believe that making our documents available to the
+            public fosters trust and collaboration within the community. These
+            documents include regulatory filings, financial reports, agreements,
+            and other important information that can help stakeholders better
+            understand our work and impact.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% for section in documents.sections %}
+  <section class="documents">
+    <div class="container">
+      <div class="grid">
+        <div class="col-s-12 col-m-8">
+          <h2 class="mb-24">{{ section.title }}</h2>
+        </div>
+      </div>
+      <div class="grid mb-64">
+        {% for document in section.documents %}
+        <div class="col-s-12 col-m-4">
+          <a
+            class="document swiper-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="{{ document.link }}"
+          >
+            <div>
+              <span>{{ document.title }}</span>
+              <span class="description">{{ document.description }}</span>
+            </div>
+            {% include 'svg/arrow_outward.svg' %}
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+</div>
