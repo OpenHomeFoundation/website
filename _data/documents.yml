@@ -2,9 +2,6 @@ sections:
   - title: "Open Home Foundation Documents"
     description: "This section contains various documents related to the Open Home Foundation that do not fit into the other categories."
     documents:
-      - title: "Logo Guidelines"
-        description: "The logo is the key building of our identity, the primary visual element that identifies the Open Home Foundation."
-        link: "https://drive.google.com/file/d/1dzwPd5OpsMpo4JiwRtEPH54WbkDb7Ghm/view?usp=drive_link"
       - title: "Organizational Regulations"
         description: "The organizational regulations of the Open Home Foundation, outlining the structure and governance of the organization."
         link: "https://drive.google.com/file/d/13MIMxKlZkMkA44UlFADlYN2UlTt4j2AS/view?usp=drive_link"
