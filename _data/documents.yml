@@ -17,3 +17,8 @@ sections:
         link: "https://drive.google.com/file/d/1Z7_l8Bwz9mOUK8wq4H4XtE5cBpLoN9Ui/view?usp=drive_link"
       - title: "Working Group Resolution Works with Home Assistant"
         link: "https://drive.google.com/file/d/1vC7LelOWNEX6Z82to9QoQnLUsv9PJcCe/view?usp=drive_link"
+  - title: "Open Home Foundation Annual Budget"
+    description: "This section contains the annual budget for the Open Home Foundation, as approved by the Board."
+    documents:
+      - title: "2025 Open Home Foundation Budget"
+      - link: "https://drive.google.com/file/d/1IAqzddWX7TNmQokH9yZ5ySTzaoYR41Hm/view?usp=drive_link"
