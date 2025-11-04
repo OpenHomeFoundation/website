@@ -1,0 +1,28 @@
+/* User research impressum section */
+
+#impressum-intro {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  min-height: 60vh;
+}
+
+#impressum-intro a {
+  color: var(--primary-text-color);
+  text-decoration: underline;
+}
+
+#impressum-intro h1 {
+  font-family: Biotif;
+  font-size: 56px;
+  line-height: 1.1;
+  padding: 0 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  #impressum-intro h1 {
+    margin-left: -24px;
+    margin-right: -24px;
+    font-size: 56px;
+  }
+}
