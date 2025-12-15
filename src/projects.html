@@ -149,64 +149,66 @@ title: Projects & Members of the Open Home Foundation
         </div>
       </div>
       <div class="collab-container">
-        <div class="collab-card">
-          <img src="/assets/images/logo/rhasspy.svg" alt="Rhasspy logo" />
-          <p>
-            Rhasspy is an open source, fully offline, private voice assistant.
-            It can be used with many human languages, and works with numerous
-            protocols and home automation platforms and services. Thanks to the
-            Open Home Foundation, Michael Hansen, the creator of Rhasspy, can
-            work on advancing open source voice projects full time.
-          </p>
-          <a
-            href="https://community.rhasspy.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button"
-            aria-label="Learn mode about Rhasspy"
-            >Learn more</a
-          >
-        </div>
-        <div class="collab-card">
-          <img src="/assets/images/logo/wled.svg" alt="WLED logo" />
-          <p>
-            WLED is an ESP-based webserver to control digital LEDs over Wi-Fi.
-            It supports over a dozen light control interfaces, including
-            standalone apps for Android and iOS. It is a feature-rich project,
-            with a modern user interface, over-the-air updates, and support for
-            addressable RGBW strips. The Open Home Foundation owns ESP Web
-            Tools, which powers the WLED web installer, making the project more
-            accessible for more people.
-          </p>
-          <a
-            href="https://kno.wled.ge/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button"
-            aria-label="Learn mode WLED"
-            >Learn more</a
-          >
-        </div>
-        <div class="collab-card">
-          <img
-            src="/assets/images/logo/zigbee2mqtt.svg"
-            alt="Zigbee2MQTT logo"
-          />
-          <p>
-            Zigbee2MQTT is a bridge that allows you to control Zigbee devices
-            without the vendor’s proprietary bridge or gateway. It is an open
-            system that allows users to integrate devices with any smart home
-            infrastructure they want, as long as it supports the lightweight
-            MQTT messaging protocol.
-          </p>
-          <a
-            href="https://www.zigbee2mqtt.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button"
-            aria-label="Learn mode about Zigbee2MQTT"
-            >Learn more</a
-          >
+        <div class="grid">
+          <div class="collab-card col-s-12 col-l-4">
+            <img src="/assets/images/logo/rhasspy.svg" alt="Rhasspy logo" />
+            <p>
+              Rhasspy is an open source, fully offline, private voice assistant.
+              It can be used with many human languages, and works with numerous
+              protocols and home automation platforms and services. Thanks to
+              the Open Home Foundation, Michael Hansen, the creator of Rhasspy,
+              can work on advancing open source voice projects full time.
+            </p>
+            <a
+              href="https://community.rhasspy.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button"
+              aria-label="Learn mode about Rhasspy"
+              >Learn more</a
+            >
+          </div>
+          <div class="collab-card col-s-12 col-l-4">
+            <img src="/assets/images/logo/wled.svg" alt="WLED logo" />
+            <p>
+              WLED is an ESP-based webserver to control digital LEDs over Wi-Fi.
+              It supports over a dozen light control interfaces, including
+              standalone apps for Android and iOS. It is a feature-rich project,
+              with a modern user interface, over-the-air updates, and support
+              for addressable RGBW strips. The Open Home Foundation owns ESP Web
+              Tools, which powers the WLED web installer, making the project
+              more accessible for more people.
+            </p>
+            <a
+              href="https://kno.wled.ge/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button"
+              aria-label="Learn mode WLED"
+              >Learn more</a
+            >
+          </div>
+          <div class="collab-card col-s-12 col-l-4">
+            <img
+              src="/assets/images/logo/zigbee2mqtt.svg"
+              alt="Zigbee2MQTT logo"
+            />
+            <p>
+              Zigbee2MQTT is a bridge that allows you to control Zigbee devices
+              without the vendor’s proprietary bridge or gateway. It is an open
+              system that allows users to integrate devices with any smart home
+              infrastructure they want, as long as it supports the lightweight
+              MQTT messaging protocol.
+            </p>
+            <a
+              href="https://www.zigbee2mqtt.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button"
+              aria-label="Learn mode about Zigbee2MQTT"
+              >Learn more</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -234,33 +236,17 @@ title: Projects & Members of the Open Home Foundation
             class="standard-card"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/rhasspy/wyoming"
+            href="https://esphome.github.io/esp-web-tools/"
           >
             {% include 'svg/arrow_outward.svg' %}
-            <h3>Wyoming</h3>
-            <p>Peer-to-peer protocol for voice assistants.</p>
-            <div class="tags">
-              <span>Open standard</span>
-              <span>Voice</span>
-            </div>
-          </a>
-        </div>
-        <div class="col-s-12 col-m-4">
-          <a
-            class="standard-card"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://bthome.io/"
-          >
-            {% include 'svg/arrow_outward.svg' %}
-            <h3>BTHome</h3>
+            <h3>ESP Web Tools</h3>
             <p>
-              Open standard for broadcasting sensor data and button presses over
-              Bluetooth LE.
+              User friendly tools to manage ESP8266 and ESP32 devices in a web
+              browser.
             </p>
             <div class="tags">
-              <span>Open standard</span>
-              <span>Bluetooth</span>
+              <span>Library</span>
+              <span>ESP32</span>
             </div>
           </a>
         </div>
@@ -280,6 +266,24 @@ title: Projects & Members of the Open Home Foundation
             <div class="tags">
               <span>Open standard</span>
               <span>Wi-Fi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-s-12 col-m-4">
+          <a
+            class="standard-card"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/hacs/integration"
+          >
+            {% include 'svg/arrow_outward.svg' %}
+            <h3>HACS</h3>
+            <p>
+              A custom integration designed to help the Home Assistant community
+              discover and share projects.
+            </p>
+            <div class="tags">
+              <span>Home Assistant Integration</span>
             </div>
           </a>
         </div>
@@ -334,43 +338,6 @@ title: Projects & Members of the Open Home Foundation
             <div class="tags">
               <span>Library</span>
               <span>Voice</span>
-            </div>
-          </a>
-        </div>
-        <div class="col-s-12 col-m-4">
-          <a
-            class="standard-card"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://esphome.github.io/esp-web-tools/"
-          >
-            {% include 'svg/arrow_outward.svg' %}
-            <h3>ESP Web Tools</h3>
-            <p>
-              User friendly tools to manage ESP8266 and ESP32 devices in a web
-              browser.
-            </p>
-            <div class="tags">
-              <span>Library</span>
-              <span>ESP32</span>
-            </div>
-          </a>
-        </div>
-        <div class="col-s-12 col-m-4">
-          <a
-            class="standard-card"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/hacs/integration"
-          >
-            {% include 'svg/arrow_outward.svg' %}
-            <h3>HACS</h3>
-            <p>
-              A custom integration designed to help the Home Assistant community
-              discover and share projects.
-            </p>
-            <div class="tags">
-              <span>Home Assistant Integration</span>
             </div>
           </a>
         </div>
