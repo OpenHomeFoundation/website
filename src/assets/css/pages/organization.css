@@ -120,6 +120,11 @@
   padding-bottom: 80px;
 }
 
+#board-members .button {
+  align-self: center;
+  justify-self: center;
+}
+
 #board-members .member-card {
   border-radius: 16px;
   border: 1px solid var(--light-grey-color);
@@ -128,8 +133,11 @@
 }
 
 #board-members .members {
-  display: grid;
-  gap: 72px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -141,6 +149,13 @@
   flex: 1;
   position: relative;
   padding-bottom: 24px;
+  max-width: 220px;
+  min-width: 120px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: rgba(237, 236, 237, .7);
+  height: -webkit-fill-available;
+  height: fill-available;
 }
 
 #board-members .member .name {
@@ -151,16 +166,14 @@
 
 #board-members .member .role {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--secondary-text-color);
 }
 
 #board-members .member img {
   width: 100%;
-  max-width: 200px;
-  aspect-ratio: 1;
-  border-radius: 50%;
+  aspect-ratio: 218/265;
   object-fit: cover;
   margin-bottom: 20px;
   z-index: 1;

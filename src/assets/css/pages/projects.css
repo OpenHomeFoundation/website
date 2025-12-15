@@ -66,19 +66,13 @@
 }
 
 #collabs .collab-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   margin: 24px -24px;
   --swiper-wrapper-transition-timing-function: linear;
 }
 
-@media (min-width: 768px) {
-  #collabs .collab-container {
-    margin: 24px -48px;
-    mask-image: linear-gradient(to right,
-        transparent 0%,
-        black 10% 90%,
-        transparent 100%);
-  }
-}
 
 #collabs .collab-card {
   padding: 48px 32px;
