@@ -22,6 +22,17 @@ h3 {
   line-height: normal;
 }
 
+a {
+  color: inherit;
+  text-underline-offset: 6px;
+  text-decoration-color: rgba(89, 93, 102, 0.5);
+  transition: text-decoration-color 0.2s ease-out;
+}
+
+a:hover {
+  text-decoration-color: rgba(89, 93, 102, 1);
+}
+
 p strong {
   font-weight: 600;
 }
