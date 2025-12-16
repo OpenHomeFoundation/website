@@ -2,7 +2,7 @@ sections:
   - title: "Positions"
     documents:
       - title: "Privacy"
-        description: "Our stance on, and recommendations for, privacy and data autonomy in the smart home."
+        description: "Our stance on privacy and data autonomy in the smart home, and our recommendations for improving them."
         link: "https://drive.google.com/file/d/18Bw8P2Wxr0uWgcqLAf4TfH6aMOmcgw0q/view?usp=drive_link"
   - title: "Working Groups"
     description: "The Works with Home Assistant (WWHA) program is a certification program for products that integrate with Home Assistant. It ensures that products meet specific standards for quality and compatibility."
@@ -24,6 +24,12 @@ sections:
       - title: "Public Deed"
         description: "The public deed of the Open Home Foundation, detailing its establishment and purpose."
         link: "https://drive.google.com/file/d/1SVAZrl_kZmlXHzR1wTVvePEwZmuuUysi/view?usp=drive_link"
+      - title: "Open Home Foundation Organigram"
+        description: "An overview of our organizational structure."
+        link: "https://drive.google.com/file/d/1jVsSXj3q-Qk88yz1c2dlCdkKnoI5HvEX/view"
+      - title: "2025 Donations tiers"
+        description: "Our current donation tiers and information."
+        link: "https://drive.google.com/file/d/1Ia2iqCostsmHAHBpJDROayXR8KXu43Fd/view"
   - title: "Budgets"
     description: "This section contains the annual budget for the Open Home Foundation, as approved by the Board."
     documents:
