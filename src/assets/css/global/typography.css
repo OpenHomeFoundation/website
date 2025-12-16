@@ -28,7 +28,7 @@ h3 {
 
 a {
   color: inherit;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   text-decoration-color: rgba(89, 93, 102, 0.5);
   transition: text-decoration-color 0.2s ease-out;
 }
