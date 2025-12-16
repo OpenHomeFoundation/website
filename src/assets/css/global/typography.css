@@ -22,6 +22,10 @@ h3 {
   line-height: normal;
 }
 
+.balance {
+  text-wrap: balance;
+}
+
 a {
   color: inherit;
   text-underline-offset: 6px;
