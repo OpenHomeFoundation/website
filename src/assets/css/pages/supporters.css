@@ -29,6 +29,16 @@
   transition: background-color 0.3s;
 }
 
+#supporters .standard-card .tags span.gold {
+  background-color: #E4AC03;
+  color: #082739;
+}
+
+#supporters .standard-card .tags span.silver {
+  background-color: #9CA0AB;
+  color: #082739;
+}
+
 #supporters .standard-card .supporter-logo {
   margin-bottom: 30px;
 }
@@ -107,6 +117,10 @@
 #supporters .standard-card.link {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+}
+
+#supporters p+.button {
+  justify-self: center;
 }
 
 #supporters .standard-card:hover,
