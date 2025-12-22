@@ -132,10 +132,9 @@
 #board-members .members {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 22px;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 #board-members .member {
@@ -151,8 +150,7 @@
   border-radius: 16px;
   overflow: hidden;
   background-color: rgba(237, 236, 237, .7);
-  height: -webkit-fill-available;
-  height: fill-available;
+  align-self: stretch;
 }
 
 #board-members .member .name {
@@ -194,7 +192,6 @@
 @media (min-width: 768px) {
   #board-members .members {
     gap: 24px;
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 
