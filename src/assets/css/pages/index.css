@@ -13,18 +13,17 @@
   gap: 16px;
   flex-wrap: nowrap;
   border-radius: 60px;
-  border: 1px solid transparent;
-  background: rgba(9, 41, 59, 0.2);
-  color: var(--light-grey-color);
+  border: 1px solid var(--light-grey-color);
+  background: hsla(300, 3%, 93%, .3);
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  width: 100%;
   transition:
     border-color 180ms ease-in-out,
     background-color 180ms ease-in-out;
   outline: none;
+  z-index: 1
 }
 
 #intro span {
