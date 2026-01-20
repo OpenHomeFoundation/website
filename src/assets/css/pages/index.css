@@ -20,11 +20,11 @@
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  width: 100%;
   transition:
     border-color 180ms ease-in-out,
     background-color 180ms ease-in-out;
   outline: none;
+  z-index: 1
 }
 
 #intro span {
