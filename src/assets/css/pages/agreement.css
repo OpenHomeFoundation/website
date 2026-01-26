@@ -1,6 +1,7 @@
 /* User research agreement section */
 
-#agreement-intro {
+#agreement-intro,
+#data-use-intro {
   padding-top: 150px;
   padding-bottom: 50px;
 }
@@ -13,7 +14,8 @@
   margin: 0;
 }
 
-#agreement-intro h1 {
+#agreement-intro h1,
+#data-use-intro h1 {
   font-family: Biotif;
   font-size: 56px;
   line-height: 1.1;
@@ -22,7 +24,8 @@
 }
 
 @media (max-width: 767px) {
-  #agreement-intro h1 {
+  #agreement-intro h1,
+  #data-use-intro h1 {
     margin-left: -24px;
     margin-right: -24px;
     font-size: 56px;
@@ -114,4 +117,46 @@
   #agreement-rights .item img {
     height: 100%;
   }
+}
+
+/* Device database data use statement */
+
+.bg-gradient-agreement-header ul,
+.bg-gradient-agreement-header ol {
+  text-align: left;
+  padding-left: 24px;
+  color: var(--primary-text-color);
+}
+
+.bg-gradient-agreement-header ul {
+  list-style-type: disc;
+}
+
+.bg-gradient-agreement-header ol {
+  list-style-type: decimal;
+}
+
+.bg-gradient-agreement-header li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.bg-gradient-agreement-header li:last-child {
+  margin-bottom: 0;
+}
+
+.bg-gradient-agreement-header pre {
+  background-color: var(--dark-blue-color);
+  border-radius: 12px;
+  padding: 24px;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.bg-gradient-agreement-header pre code {
+  color: var(--light-grey-color);
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre;
 }

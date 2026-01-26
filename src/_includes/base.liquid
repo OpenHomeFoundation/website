@@ -24,6 +24,9 @@ communication standards.
     <title>{{ full_title }}</title>
     <meta name="description" content="{{ full_description }}">
     <meta name="viewport" content="width=device-width">
+    {%- if noindex %}
+    <meta name="robots" content="noindex">
+    {%- endif %}
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:description" content="{{ full_description }}">
     <meta property="og:image" content="{{ og_image | default: '/assets/images/opengraph.jpg' }}">
