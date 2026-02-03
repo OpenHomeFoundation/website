@@ -1,0 +1,54 @@
+---
+layout: base
+---
+<div class="bg-gradient-blog">
+  <section id="news-header">
+    <div class="container">
+      <div class="grid">
+        <div class="column col-s-12 col-m-10 col-m-offset-2">
+          <h1 class="text-center mb-48">
+            {{ title }}
+          </h1>
+          {% if subtitle %}
+          <p class="text-center">
+            {{ subtitle }}
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="bg-primary">
+  <section id="post">
+    <div class="container">
+      {% if header_image %}
+      <div class="header">
+        <img
+          class="header-image"
+          src="{{ header_image }}"
+          alt="{{ title }}"
+        />
+      </div>
+      {% endif %}
+      <div class="date">
+        <p>{{ date | date: "%A, %B %d, %Y" }}</p>
+      </div>
+      <div class="grid">
+        <div class="col-s-12 col-m-8 col-m-offset-3">
+          <div class="content mb-128">
+            {{ content }}
+          </div>
+          {% if author %}
+          <div class="author">
+            <p class="name">{{ author }}</p>
+            {% if author_role %}
+            <p class="role">{{ author_role }}</p>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
