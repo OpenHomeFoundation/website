@@ -147,7 +147,7 @@
   font-weight: 600;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1015px) {
   .navbar-container {
     padding: 0 24px;
   }
