@@ -14,7 +14,7 @@ html {
   --tertiary-color: var(--green-color);
   --dark-tertiary-color: var(--dark-green-color);
 
-  --on-primary-color: var(--light-grey-color);
+  --on-primary-color: var(--dark-blue-color);
   --on-secondary-color: var(--light-grey-color);
   --on-tertiary-color: var(--dark-color);
   --on-dark-color: var(--light-grey-color);
