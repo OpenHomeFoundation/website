@@ -23,18 +23,18 @@ description: News and updates from the Open Home Foundation
     <div class="container">
       <div class="grid">
         {% for post in collections.posts %}
-        <div class="col-s-12 col-m-6 col-l-4 mb-48">
+        <div class="col-s-12 col-m-6 col-l-4">
           <a href="{{ post.url }}" class="blog-card">
-            {% if post.data.header_image %}
+            {% if post.data.og_image %}
             <div class="blog-card-image">
-              <img src="{{ post.data.header_image }}" alt="{{ post.data.title }}" />
+              <img src="{{ post.data.og_image }}" alt="{{ post.data.title }}" />
             </div>
             {% endif %}
             <div class="blog-card-content">
               <p class="blog-card-date">{{ post.date | date: "%B %d, %Y" }}</p>
               <h3 class="blog-card-title">{{ post.data.title }}</h3>
               {% if post.data.description %}
-              <p class="blog-card-description">{{ post.data.description }}</p>
+              <p class="blog-card-description">{{ post.data.description | truncate: 160 }}</p>
               {% endif %}
             </div>
           </a>
