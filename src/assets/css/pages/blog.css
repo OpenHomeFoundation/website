@@ -1,52 +1,72 @@
 #news-header {
-  padding-top: 200px;
-  padding-bottom: 160px;
+  padding-top: 120px;
+  padding-bottom: 60px;
   color: var(--light-grey-color);
 }
 
 #news-header p {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 500;
+}
+
+#news-header .meta {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--light-grey-color);
+  opacity: 0.7;
+  margin-top: 24px;
 }
 
 #news-header h1 {
   padding-bottom: 32px;
   border-bottom: 1px solid var(--light-grey-color);
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  #news-header h1 {
+    font-size: 56px;
+  }
+
+  #news-header p {
+    font-size: 32px;
+  }
 }
 
 #post {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  #post {
+    padding-top: 80px;
+  }
+}
+
+#post .header {
+  display: flex;
+  justify-content: center;
 }
 
 #post .header-image {
   width: 100%;
-  margin-bottom: 120px;
-  border-radius: 16px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1200 / 630;
+  margin-bottom: 48px;
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
-#post .date {
-  color: var(--grey-color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 128px;
-}
-
-#post .date:after {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 45px;
-  background-color: var(--grey-color);
-  margin: 16px auto;
-}
 
 #post .content {
-  margin-bottom: 128px;
+  margin-bottom: 64px;
 }
 
-#post .content p {
+#post .content p,
+#post .content li {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 300;
@@ -56,15 +76,15 @@
 #post .content h2 {
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 40px;
-  margin-top: 60px;
+  margin-bottom: 16px;
+  margin-top: 40px;
   color: var(--primary-text-color);
 }
 
 #post .content h3 {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   margin-top: 32px;
   color: var(--primary-text-color);
 }
@@ -73,24 +93,74 @@
 #post .content img,
 #post .content picture {
   width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   display: block;
-  margin-top: 32px;
+  margin-top: 24px;
   border-radius: 16px;
 }
 
-#post .author {
-  padding-top: 32px;
-  border-top: 1px solid var(--secondary-text-color);
-  text-align: right;
+
+/* Blog listing styles */
+#blog-list {
+  padding-top: 40px;
+  padding-bottom: 120px;
 }
 
-#post .author .name {
+@media (min-width: 768px) {
+  #blog-list {
+    padding-top: 80px;
+  }
+}
+
+.blog-card {
+  display: block;
+  border-radius: 16px;
+  background: var(--light-grey-color);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(9, 41, 59, 0.12);
+}
+
+.blog-card-image {
+  width: 100%;
+  aspect-ratio: 1200 / 630;
+  overflow: hidden;
+}
+
+.blog-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-card-content {
+  padding: 24px;
+}
+
+.blog-card-date {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--grey-color);
+  margin-bottom: 12px;
+}
+
+.blog-card-title {
+  font-size: 20px;
+  font-weight: 500;
   color: var(--primary-text-color);
+  margin-bottom: 12px;
+  line-height: 1.3;
 }
 
-#post .author .role {
-  color: var(--secondary-text-color);
-  font-size: 12px;
+.blog-card-description {
+  font-size: 14px;
   font-weight: 300;
+  color: var(--secondary-text-color);
+  line-height: 1.5;
 }

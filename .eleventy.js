@@ -5,6 +5,15 @@ const yaml = require("js-yaml");
 module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("./src/assets");
 
+  // 	--------------------- Blog Collection ---------------------
+  eleventyConfig.addCollection("posts", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob(["src/blog/*.html", "src/blog/*.md"])
+      .filter((item) => !item.inputPath.includes("index.html"))
+      .sort((a, b) => b.date - a.date);
+  });
+
+
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(require("./config/css-config.js"));
   eleventyConfig.addPlugin(require("./config/js-config.js"));

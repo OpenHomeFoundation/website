@@ -29,7 +29,18 @@ communication standards.
     {%- endif %}
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:description" content="{{ full_description }}">
-    <meta property="og:image" content="{{ og_image | default: '/assets/images/opengraph.jpg' }}">
+    <meta
+      property="og:image"
+      content="https://www.openhomefoundation.org{{ og_image | default: '/assets/images/opengraph.jpg' }}"
+    >
+    {%- if reading_time and layout == "post" %}
+    <meta name="twitter:label1" value="Reading time">
+    <meta name="twitter:data1" value="~{{ reading_time }} {% if reading_time == 1 %}minute{% else %}minutes{% endif %}">
+    {%- endif %}
+    {%- if author %}
+      <meta name="twitter:label2" value="Written by">
+      <meta name="twitter:data2" value="{{ author }}">
+    {%- endif %}
     <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
