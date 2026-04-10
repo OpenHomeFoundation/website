@@ -17,7 +17,7 @@ layout: base
           {%- assign words = content | strip_html | strip_newlines | split: " " | size -%}
           {%- assign reading_time = words | plus: 249 | divided_by: 250 | round -%}
           {%- if reading_time < 1 %}{% assign reading_time = 1 %}{% endif -%}
-          <p class="meta text-center">{{ date | date: '%A, %B %d, %Y' }}{% if author %} · {{ author }}{% endif %} · ~{{ reading_time }} min read</p>
+          <p class="meta text-center">{{ date | date: '%A, %B %d, %Y' }}{% if author %} · {{ author }}{% endif %} · {{ reading_time }} minute read</p>
         </div>
       </div>
     </div>
