@@ -31,7 +31,7 @@ description: News and updates from the Open Home Foundation
             </div>
             {% endif %}
             <div class="blog-card-content">
-              <p class="blog-card-date">{{ post.date | date: "%B %d, %Y" }}</p>
+              <p class="blog-card-date">{{ post.date | date: "%B %d, %Y" }} · {{ post.data.reading_time }} minute read</p>
               <h3 class="blog-card-title">{{ post.data.title }}</h3>
               {% if post.data.description %}
               <p class="blog-card-description">{{ post.data.description | truncate: 160 }}</p>
