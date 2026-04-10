@@ -6,7 +6,6 @@ layout: base
     <div class="container">
       <div class="grid">
         <div class="column col-s-12 col-m-10 col-m-offset-2">
-          <p class="date text-center">{{ date | date: '%A, %B %d, %Y' }}</p>
           <h1 class="text-center mb-48">
             {{ title }}
           </h1>
@@ -15,6 +14,10 @@ layout: base
               {{ description }}
             </p>
           {% endif %}
+          {%- assign words = content | strip_html | strip_newlines | split: " " | size -%}
+          {%- assign reading_time = words | plus: 249 | divided_by: 250 | round -%}
+          {%- if reading_time < 1 %}{% assign reading_time = 1 %}{% endif -%}
+          <p class="meta text-center">{{ date | date: '%A, %B %d, %Y' }}{% if author %} · {{ author }}{% endif %} · ~{{ reading_time }} min read</p>
         </div>
       </div>
     </div>
@@ -37,14 +40,6 @@ layout: base
           <div class="content mb-128">
             {{ content }}
           </div>
-          {% if author %}
-            <div class="author">
-              <p class="name">{{ author }}</p>
-              {% if author_role %}
-                <p class="role">{{ author_role }}</p>
-              {% endif %}
-            </div>
-          {% endif %}
         </div>
       </div>
     </div>

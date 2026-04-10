@@ -22,7 +22,7 @@ This big annual event is where we celebrate our community, share successes, and 
 
 If you can sense the energy and excitement in the video, I can assure you it was even more intense standing on that stage in Utrecht! Seeing almost 300 of you in person – with thousands more joining us online – was a powerful reminder of how far we've come together.
 
-The theme of State of the Open Home 2026 is "Building in the open". That's more than just a slogan: it's your invitation to help us ensure the future of smart homes is shaped by the people who actually use them.
+The theme of State of the Open Home 2026 was "Building in the open". That's more than just a slogan: it's your invitation to help us ensure the future of smart homes is shaped by the people who actually use them.
 
 <img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image1.webp" alt="A three-panel collage showing a busy conference crowd networking, Open Home Foundation President Paulus Schoutsen speaking on stage in a blue T-shirt, and a large seated audience watching a talk under blue lighting." style="border: 0;box-shadow: none;">
 

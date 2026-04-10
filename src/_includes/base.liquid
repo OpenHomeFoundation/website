@@ -25,18 +25,23 @@ communication standards.
     <meta name="description" content="{{ full_description }}">
     <meta name="viewport" content="width=device-width">
     {%- if noindex %}
-    <meta name="robots" content="noindex">
+      <meta name="robots" content="noindex">
     {%- endif %}
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:description" content="{{ full_description }}">
-    <meta property="og:image" content="https://www.openhomefoundation.org{{ og_image | default: '/assets/images/opengraph.jpg' }}">
-    {%- if author %}
-    <meta name="author" content="{{ author }}">
-    {%- endif %}
-    {%- assign words = content | strip_html | number_of_words %}
-    {%- assign reading_time = words | divided_by: 250 %}
+    <meta
+      property="og:image"
+      content="https://www.openhomefoundation.org{{ og_image | default: '/assets/images/opengraph.jpg' }}"
+    >
+    {%- assign words = content | strip_html | strip_newlines | split: ' ' | size %}
+    {%- assign reading_time = words | plus: 249 | divided_by: 250 | round %}
     {%- if reading_time < 1 %}{% assign reading_time = 1 %}{% endif %}
-    <meta name="reading-time" content="{{ reading_time }} min read">
+    <meta name="twitter:label1" value="Reading time">
+    <meta name="twitter:data1" value="~{{ reading_time }} minutes">
+    {%- if author %}
+      <meta name="twitter:label2" value="Written by">
+      <meta name="twitter:data2" value="{{ author }}">
+    {%- endif %}
     <link rel="stylesheet" href="/assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

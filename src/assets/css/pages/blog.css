@@ -9,12 +9,12 @@
   font-weight: 500;
 }
 
-#news-header .date {
+#news-header .meta {
   font-size: 14px;
   font-weight: 500;
   color: var(--light-grey-color);
   opacity: 0.7;
-  margin-bottom: 16px;
+  margin-top: 24px;
 }
 
 #news-header h1 {
@@ -99,21 +99,6 @@
   border-radius: 16px;
 }
 
-#post .author {
-  padding-top: 32px;
-  border-top: 1px solid var(--secondary-text-color);
-  text-align: right;
-}
-
-#post .author .name {
-  color: var(--primary-text-color);
-}
-
-#post .author .role {
-  color: var(--secondary-text-color);
-  font-size: 12px;
-  font-weight: 300;
-}
 
 /* Blog listing styles */
 #blog-list {
