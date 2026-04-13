@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Open Home Foundation Blog</title>
+  <subtitle>News and updates from the Open Home Foundation</subtitle>
+  <link href="https://www.openhomefoundation.org/blog/feed.xml" rel="self"/>
+  <link href="https://www.openhomefoundation.org/blog/"/>
+  <updated>2026-04-10T00:00:00Z</updated>
+  <id>https://www.openhomefoundation.org/blog/</id>
+  <entry>
+    <title>Building what's next: State of the Open Home 2026</title>
+    <link href="https://www.openhomefoundation.org/blog/building-whats-next-state-of-the-open-home-2026/"/>
+    <updated>2026-04-10T00:00:00Z</updated>
+    <id>https://www.openhomefoundation.org/blog/building-whats-next-state-of-the-open-home-2026/</id>
+    <author><name>Paulus Schoutsen</name></author>
+    <summary>From a new Community department to a public roadmap awaiting your input – and more. Catch up on the event highlights and help shape what we build next.</summary>
+    <content type="html"><![CDATA[<p>Welcome to the Open Home Foundation Blog! Until now, foundation updates lived alongside product-related news on the <a href="https://www.home-assistant.io/blog/" target="_blank" rel="noopener">Home Assistant Blog</a>. While that served us well in the early days, we've reached a turning point. We have big ambitions for the future, and the depth of our work – building open standards, growing our community, and spreading the word about our shared values of privacy, choice, and sustainability – demands its own stage.</p>
+<p>So what better way to start than by sharing our vision from <a href="https://sotoh.openhomefoundation.org/" target="_blank" rel="noopener">State of the Open Home 2026</a>!</p>
+<p>This big annual event is where we celebrate our community, share successes, and get excited about what's coming next: and this year it was extra special. But don't just take my word for it! Check it out for yourself on our full recording of the livestream.</p>
+<p><lite-youtube videoid="XyAL1to3Lm4"></lite-youtube></p>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+<!--more-->
+<h2>The heart of the Open Home</h2>
+<p>If you can sense the energy and excitement in the video, I can assure you it was even more intense standing on that stage in Utrecht! Seeing almost 300 of you in person – with thousands more joining us online – was a powerful reminder of how far we've come together.</p>
+<p>The theme of State of the Open Home 2026 was &quot;Building in the open&quot;. That's more than just a slogan: it's your invitation to help us ensure the future of smart homes is shaped by the people who actually use them.</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image1.webp" alt="A three-panel collage showing a busy conference crowd networking, Open Home Foundation President Paulus Schoutsen speaking on stage in a blue T-shirt, and a large seated audience watching a talk under blue lighting." style="border: 0;box-shadow: none;">
+<p><em>Kicking off the event, from packed halls to the main stage.</em></p>
+<h2>Investing in people</h2>
+<p>But building in the open only works if we have the resources to support everyone involved. That's why the first thing we shared this year wasn't a feature reveal or secret product (we're <em>not</em> Apple!). It was the introduction of our new Community department, and its lead Melissa Thermidor! 🎉</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image2.webp" alt="Three members of the new Community Department at an event: Melissa Thermidor seated on a stage set holding notes, Missy Quarry speaking on stage, and Florencia Martin smiling while holding a clipboard and wearing a staff badge." style="border: 0;box-shadow: none;">
+<p><em>From left to right: Melissa Thermidor, Missy Quarry, and Florencia Martin – our new Community department!</em></p>
+<p>Melissa's arrival shows we're putting our money where our mouth is. She brings a fresh perspective to the foundation, and a renewed focus on making sure everyone who finds their way to our community feels genuinely welcome. With our Event Organizer, Florencia Martin, and Community Manager, Missy Quarry, this new department is set up to move beyond maintaining the community to actively growing it. This means better support for contributors and volunteers, more resources for local meetups, and deeper connections with people building in the open all over the world.</p>
+<blockquote>
+<p>&quot;Community is no longer something that just happens around the edges – we're building something really big and really profound. This is the real deal.&quot;
+– Melissa Thermidor, Lead of Community, Open Home Foundation</p>
+</blockquote>
+<h2>How we're building in the open</h2>
+<p>So what does building in the open actually look like? It isn't always easy, that's for sure, and takes a level of vulnerability and coordination that closed-door companies rarely have to face. But the results speak for themselves.</p>
+<p>The event explores three examples of how this approach is taking shape, and what it means for you:</p>
+<ul>
+<li><strong>With Home Assistant Labs:</strong> How we're inviting you to break, test, and influence our ideas while they're still being forged. You give us real-world feedback, and we evolve the design in the open.</li>
+<li><strong>With Sendspin:</strong> How we're giving you the chance to contribute to features long before they're officially &quot;finished&quot;, by opening up new protocols like Sendspin while they're still evolving (with some pretty cool music demos thrown in for good measure 🎶).</li>
+<li><strong>With our partners:</strong> How we're making it easier to find hardware you can actually trust. From Apollo's ESPHome Starter Kit, to Nabu Casa's new products with infrared (IR) and radio frequency (RF) 👀, it's all about giving you more choice.</li>
+</ul>
+<p>These examples are only the beginning. The goal this year is making everything more approachable, and as we say on stage: &quot;Approachability means showing all the context&quot;.</p>
+<p>We want to open the doors even wider so you can see and contribute to what comes next. That means moving away from the &quot;black box&quot; of development and towards a model where every major milestone is a shared journey. And that starts with being clear about where we're headed.</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image3.webp" alt="Franck, Home Assistant Lead, and JLo, Product and Design Lead, standing onstage presenting to a large audience, with a screen behind them reading Building in the open isn't (always) easy, and a softly lit set with plants and shelves." style="border: 0;box-shadow: none;">
+<p><em>Franck (Lead of Home Assistant) and JLo (Lead of Product &amp; UX) sharing what it means to build in the open.</em></p>
+<h2>Be part of what we build next</h2>
+<p>That's why the final part of the event sees Laura and Matthias from our Product &amp; UX department join Franck and JLo on stage to talk about our <a href="https://github.com/orgs/OpenHomeFoundation/projects/8" target="_blank" rel="noopener">roadmap</a>, which is now public on GitHub!</p>
+<p>As the team explains, what makes this roadmap different is that it's a living thing for you to <em>participate</em> in, not just view. We want to know what's missing and what you want to see next. Head to the roadmap, open the cards (demonstrated by Laura in the livestream), and tell us what you think. Because it's <em>your</em> insights and expertise that will help us build what's next.</p>
+<p>Want to propose something that's not on the roadmap yet? Submit it on our <a href="https://github.com/orgs/home-assistant/discussions" target="_blank" rel="noopener">Home Assistant</a>, <a href="https://github.com/orgs/music-assistant/discussions" target="_blank" rel="noopener">Music Assistant</a>, or <a href="https://github.com/orgs/esphome/discussions" target="_blank" rel="noopener">ESPHome</a> feature requests pages. We read every single one, and selected features are translated into roadmap opportunities by the team.</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image4.webp" alt="Four speakers—Frenck, JLo, Matthias, and Laura—seated onstage in a panel discussion, talking through the new roadmap, with low tables and a softly lit set behind them." style="border: 0;box-shadow: none;">
+<p><em>From left to right: Franck, JLo, Matthias, and Laura chatting through the new roadmap.</em></p>
+<h2>Your voice matters</h2>
+<p>Crucially, this process isn't just for developers. Whether you're an established user or just getting started, your voice matters. Your experience in your own home is the most valuable resource we have… and you don't need to write a single line of code to help steer our direction.</p>
+<p>That's because one of our biggest priorities is making Open Home Foundation projects – Home Assistant, Music Assistant, and even ESPHome – more approachable for anyone. We're reducing the barriers to entry, without removing any of the power established users expect. Or as Franck put it onstage: &quot;We really want to lower the floor without lowering the ceiling&quot;.</p>
+<h2>Finally, thank you!</h2>
+<p>Setting goals like this is only possible because of the community behind us. The energy we felt in Utrecht – and from everyone watching online – is an amazing reminder of what happens when we actually get together to share our ideas and experiences.</p>
+<p>From the atmosphere onstage to the buzz of conversation and laughter at the food stands, there was a feeling at the event that no livestream can quite capture: being there in person was genuinely something special. If you couldn't make it this year, stay tuned – you won't want to miss the next one!</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image5.webp" alt="Collage of post-event scenes showing attendees in small groups talking and socializing over drinks, interacting with smart home device demos, and chatting in softly lit indoor and evening settings." style="border: 0;box-shadow: none;">
+<p><em>When the talks wrapped, the conversations kept going: drinks, demos, and all.</em></p>
+<p>I'm so incredibly grateful that you're here building this with us: it's your passion, persistence (and, yes, patience!) that make all our work possible. On that note, I also want to give a huge thanks to all our State of the Open Home 2026 speakers and wonderful event staff who worked tirelessly behind the scenes to bring this production to life. It's been a blast.</p>
+<p>For everyone who tuned in online, we'd love to hear your thoughts on how the event went. If you have a spare moment, take our (anonymous) <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuqPALL5ilFLm_w1PTc3_m-fnMIG7TMI4DldpCtA2bQtCapA/viewform" target="_blank" rel="noopener">online attendee survey</a> and share your feedback and suggestions.</p>
+<p>We couldn't do any of this without you. Let's keep building… and see you next year!</p>
+<img src="/assets/images/blog/building-whats-next-state-of-the-open-home-2026/image6.webp" alt="A group of speakers and organizers standing together onstage, smiling and applauding in front of a large screen and event banners, marking the close of the event." style="border: 0;box-shadow: none;">
+<p><em>And that's a wrap!</em></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Announcing the Open Home Foundation</title>
+    <link href="https://www.openhomefoundation.org/blog/announcing-the-open-home-foundation/"/>
+    <updated>2024-04-20T00:00:00Z</updated>
+    <id>https://www.openhomefoundation.org/blog/announcing-the-open-home-foundation/</id>
+    <author><name>Paulus Schoutsen, Guy Sie, Pascal Vizeli, J. Nick Koston</name></author>
+    <summary>Actions speak louder than words. Which is why we created the Open Home Foundation to secure the radical principles of privacy, choice, and sustainability for smart homes.</summary>
+    <content type="html"><![CDATA[<p>We created the Open Home Foundation to fight for the fundamental
+principles of <strong>privacy</strong>, <strong>choice</strong>, and <strong>sustainability</strong> for smart
+homes. And every person who lives in one.</p>
+<p>Ahead of today, we've transferred over 240 projects, standards, drivers,
+and libraries—<em>Home Assistant</em>, <em>ESPHome</em>, <em>Zigpy</em>, <em>Piper</em>, <em>Improv
+Wi-Fi</em>, <em>Wyoming</em>, and so many more—to the Open Home Foundation. This is
+all about looking into the future. We've done this to create a bulwark
+against surveillance capitalism, the risk of buyout, and open source
+projects becoming abandonware. To an extent, this protection extends
+even against our future selves—so that smart home users can continue to
+benefit for years, if not decades. No matter what comes.</p>
+<p>But the work of the Open Home Foundation doesn't stop there. Through
+close partnership with Nabu Casa, the foundation funds, directs
+resources to, and collaborates on the development of critical external
+projects like <em>Z-Wave JS</em>, <em>WLED</em>, <em>Rhasspy</em>, and <em>Zigbee2MQTT</em>. Our
+main requirements are that the projects remain open to everyone, and
+aligned with our core principles.</p>
+<p>This is what we've already done.</p>
+<h2>Our ambitions go further</h2>
+<p>Our aim is to have the resources to be an active political advocate.
+Serving to educate the public, public servants, and the companies making
+smart home devices and services, about the importance of open standards,
+open source projects, and privacy, choice, and sustainability when it
+comes to the future of smart homes.</p>
+<p>Here's how we understand these principles:</p>
+<h3>Privacy</h3>
+<p>Privacy means you control your data. Nobody, and no company or
+organization, has a right to know what you do in your home, with whom
+you meet or associate, or how you choose to live—without your explicit
+permission. You should only share this information if you freely make
+the choice to do so without external pressure. That's why your devices
+need to work locally. It's OK for a product to offer a cloud
+connection—but its main functionality should work without the cloud. And
+the use of cloud services should always be opt-in and clearly described.</p>
+<p>You should never have to worry about being yourself to avoid being
+tracked or classified by an algorithm. You should be able to live your
+life—because nobody is watching.</p>
+<h3>Choice</h3>
+<p>Choice means you have the freedom to use any device, with any other,
+from any manufacturers, any way you like—for as long as you want. To
+make this possible, vendors must not arbitrarily limit the
+interoperability of their devices with the rest of your smart home.
+Control of those devices, and management of data they gather, should
+operate via open standards and local APIs.</p>
+<p>You should be able to design your personal smart home—the way you
+imagine it.</p>
+<h3>Sustainability</h3>
+<p>Sustainability means being able to use and repurpose old appliances,
+smart devices, and other durable hardware beyond commercially-limited
+lifetimes as your smart home evolves. But it also means having the tools
+to limit your environmental impact by tracking, automating, and reducing
+waste and emissions.</p>
+<p>You should be able to embrace the convenience of a smart home without
+compromising your ability to cut utility bills—and your carbon
+footprint.</p>
+<p><lite-youtube videoid="oa__fLArsFk"></lite-youtube></p>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+<h2>Getting here didn't follow a linear path</h2>
+<p>As many people in this community already know, the Home Assistant
+Journey started over 10 years ago when Paulus Schoutsen wrote a few
+lines of Python to take control of his Philips Hue smart lights. His
+motivation was greater control over the devices he'd purchased—rather
+than letting a corporate giant decide what was best for his home.</p>
+<p>This act struck such a chord that over the coming years, thousands of
+mostly volunteer contributors transformed that first script into a
+leading smart home platform. They also built an entire ecosystem of
+projects around it.</p>
+<p>But two other critical trends also took place, one far more troubling:
+The smart home landscape grew dominated by companies whose purpose was
+to sell you new devices on a schedule to please their shareholders—while
+siphoning off your personal data for financial gain.</p>
+<p>The other trend was Schoutsen and others approaching burn-out as they
+tried to keep their various projects thriving—doing most of their coding
+after coming home from their real jobs, on weekends, and when bugs
+needed squashing.</p>
+<p>To address this, Schoutsen, Ben Bangert, and Pascal Vizeli founded Nabu
+Casa in 2018 as a for-profit company. The goal was to stabilize Home
+Assistant, and bolster its longevity, by injecting predictable funding
+for future development. Nabu Casa also bought ESPHome, with the same
+purpose in mind.</p>
+<p>Early on, some people questioned whether starting a for-profit company
+was an altruistic move. But over the following years, Nabu Casa
+established a clear and accountable track record. This included
+practicing what it preached: Speaking up to protect open source ideals
+when other developers came under threat; directing full-time employees
+to devote their days to open source, community-driven, smart home
+projects; and joining organizations like the Connectivity Standards
+Alliance and Z-Wave Alliance, and the general fight for critical open
+standards like Zigbee, Z-Wave, and Matter.</p>
+<p>By 2021, Schoutsen and others defined a concept called the open home,
+built around the principles of privacy, choice, and sustainability. But
+Home Assistant and other open home projects were still floating in a
+kind of undefined space between a for-profit entity and an open source
+repository on Github.</p>
+<p>So in 2023, this core group of smart home developers decided to codify
+and protect their ideals. And to create a formal home for the projects
+they and so many other contributors had poured their souls, beliefs, and
+shared code into.</p>
+<p>Individual efforts needed to be united. And in 2024, the Open Home
+Foundation was created to unite them—with a special, rules-bound,
+inaugural partner in Nabu Casa to provide the majority of the funding.</p>
+<h2>Going forward will be a journey</h2>
+<p>Share your ideas. Speak up. Contribute. Subscribe. Support. Tell us
+where we can do better. Champion our cause.</p>
+<p>We see this as a living project, in fitting with the mosaic threads of
+DNA that represent our past.</p>
+<p>We've always stood for open source, creativity, and taking initiative.
+And we have no doubt that this organization will evolve over the years.
+We will remain true to our principles of privacy, choice, and
+sustainability for the smart home. And always open to finding the best
+way to achieve our goals.</p>
+<p><strong>We hope you'll join us.</strong></p>
+]]></content>
+  </entry>
+</feed>
