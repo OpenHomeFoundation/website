@@ -1,0 +1,44 @@
+---
+layout: base
+---
+<div class="bg-gradient-blog">
+  <section id="news-header">
+    <div class="container">
+      <div class="grid">
+        <div class="column col-s-12 col-m-10 col-m-offset-2">
+          <h1 class="text-center mb-48">
+            {{ title }}
+          </h1>
+          {% if description %}
+            <p class="text-center">
+              {{ description }}
+            </p>
+          {% endif %}
+          <p class="meta text-center">{{ date | date: '%A, %B %d, %Y' }}{% if author %} · {{ author }}{% endif %} · {{ reading_time }} minute read</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="bg-primary">
+  <section id="post">
+    <div class="container">
+      {% if og_image %}
+        <div class="header">
+          <img
+            class="header-image"
+            src="{{ og_image }}"
+            alt="{{ title }}"
+          >
+        </div>
+      {% endif %}
+      <div class="grid">
+        <div class="col-s-12 col-m-8 col-m-offset-3">
+          <div class="content mb-128">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
