@@ -99,6 +99,11 @@
   border-radius: 16px;
 }
 
+#post .content img + p:has(em) {
+  margin-top: -16px;
+  font-size: 14px;
+}
+
 
 /* Blog listing styles */
 #blog-list {
