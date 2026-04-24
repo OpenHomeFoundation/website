@@ -5,6 +5,7 @@ description: "From a new Community department to a public roadmap awaiting your 
 og_image: /assets/images/blog/building-whats-next-state-of-the-open-home-2026/art.webp
 date: 2026-04-10
 author: "Paulus Schoutsen"
+category: "State of the Open Home"
 ---
 
 Welcome to the Open Home Foundation Blog! Until now, foundation updates lived alongside product-related news on the <a href="https://www.home-assistant.io/blog/" target="_blank" rel="noopener">Home Assistant Blog</a>. While that served us well in the early days, we've reached a turning point. We have big ambitions for the future, and the depth of our work – building open standards, growing our community, and spreading the word about our shared values of privacy, choice, and sustainability – demands its own stage.

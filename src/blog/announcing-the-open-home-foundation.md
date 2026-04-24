@@ -7,6 +7,7 @@ og_image: /assets/images/blog/announcing-the-open-home-foundation-opengraph.jpg
 date: 2024-04-20
 author: "Paulus Schoutsen, Guy Sie, Pascal Vizeli, J. Nick Koston"
 author_role: "Inaugural Board of the Open Home Foundation"
+category: "Announcements"
 ---
 
 We created the Open Home Foundation to fight for the fundamental
