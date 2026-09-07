@@ -40,7 +40,7 @@ _A fresh new webpage, just for you!_
 
 ## We’ve got you covered
 
-One big item missing last year was a Host Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our new Community Day website and as a downloadable PDF, this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
+One big item missing last year was a Host Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our new Community Day website and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
 
 <details class="accordion">
 <summary>8 weeks before the event</summary>
@@ -55,7 +55,7 @@ One big item missing last year was a Host Playbook – I’m thrilled to say we�
 <details class="accordion">
 <summary>6 weeks before</summary>
 
-- Lock in your venue (check out the Reimbursement Guidelines to see how we help with this).
+- Lock in your venue (check out the [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf) to see how we help with this).
 - Confirm your co-hosts.
 - Spread the word!
 - Reach out to your local or regional community – you can find the ones we’re aware of in the FAQ of <a href="https://www.home-assistant.io/community/" target="_blank" rel="noopener noreferrer">our Community webpage</a>. If yours is missing, please let us know!
@@ -109,7 +109,7 @@ _The Community department is here to help! From left to right: Isabelle, Melissa
 
 I won’t lie: merch for hosts was a bit of a mess last year 😬 We said one thing and then weren’t able to honor that, forcing hosts to find their own merch. So this year we’re making it possible to <a href="https://forms.gle/jUA6n8DJvBJvs4Z96" target="_blank" rel="noopener noreferrer">request merch from us directly</a> 🎉 Because of shipping deadlines, the request cut-off date is October 5, but that’s not where it stops! If you miss the deadline or simply want to produce your own merch locally (see below), we’ll reimburse you for those purchases.
 
-We’ve updated last year’s Reimbursement Guidelines, which we also used throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
+We’ve updated last year’s [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also used throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
 
 - A T-shirt and sweater for each host (up to three)
 - An <a href="https://esphome.io/starter-kit/" target="_blank" rel="noopener noreferrer">ESPHome Starter Kit</a> for each host (also up to three)
