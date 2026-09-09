@@ -46,7 +46,7 @@ One big item missing last year was a Host Playbook – I’m thrilled to say we�
 <summary>8 weeks before the event</summary>
 
 - Start venue scouting.
-- Register on Luma and create your event page: you can now generate your own “invite” image using [our asset generator](/community-day/#asset-generator).
+- Register on Luma and create your event page: you can now make your own invite image using [our asset generator](/community-day/#asset-generator).
 - Join the Home Assistant Discord server and share your event in the <a href="https://discord.com/channels/330944238910963714/1537054268933144677" target="_blank" rel="noopener noreferrer">#community-day</a> channel to receive a special role dedicated to Community Day hosts.
 - In your event’s description, ask your guests to join the server too so y’all can have a thread dedicated to your meetup to chat outside of Luma.
 
@@ -99,7 +99,7 @@ One big item missing last year was a Host Playbook – I’m thrilled to say we�
 
 In addition to this timeline, the playbook also talks about finding the right kind of venue, how to set up your Luma event, activity ideas, and handling guest privacy when it comes to photography.
 
-Did I lose you? 😅 Don’t worry. My team is genuinely happy to help! You can reach out to me, Florencia, Isabelle, or Inês either in the <a href="https://discord.com/channels/330944238910963714/1537054268933144677" target="_blank" rel="noopener noreferrer">Community Day Discord channel</a> (tag one of us!) (tag one of us!) or by emailing the team at <a href="mailto:communityday@openhomefoundation.org" class="copy-email" aria-label="communityday@openhomefoundation.org – click to copy email address">communityday@openhomefoundation.org</a>.
+Did I lose you? 😅 Don’t worry. My team is genuinely happy to help! You can reach out to me, Florencia, Isabelle, or Inês either in the <a href="https://discord.com/channels/330944238910963714/1537054268933144677" target="_blank" rel="noopener noreferrer">Community Day Discord channel</a> (tag one of us!) or by emailing the team at <a href="mailto:communityday@openhomefoundation.org" class="copy-email" aria-label="communityday@openhomefoundation.org – click to copy email address">communityday<span>@</span>openhomefoundation.org</a>.
 
 <img src="/assets/images/blog/countdown-to-community-day-2026-starts-now/image3.webp" alt="Portraits of the five members of the Community department: Isabelle, Melissa, Florencia, Missy, and Inês." style="border: 0;box-shadow: none;">
 
@@ -109,16 +109,15 @@ _The Community department is here to help! From left to right: Isabelle, Melissa
 
 I won’t lie: merch for hosts was a bit of a mess last year 😬 We said one thing and then weren’t able to honor that, forcing hosts to find their own merch. So this year we’re making it possible to <a href="https://forms.gle/jUA6n8DJvBJvs4Z96" target="_blank" rel="noopener noreferrer">request merch from us directly</a> 🎉 Because of shipping deadlines, the request cut-off date is October 5, but that’s not where it stops! If you miss the deadline or simply want to produce your own merch locally (see below), we’ll reimburse you for those purchases.
 
-We’ve updated last year’s [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also used throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
+We’ve updated last year’s [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also use throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
 
 - A T-shirt and sweater for each host (up to three)
 - An <a href="https://esphome.io/starter-kit/" target="_blank" rel="noopener noreferrer">ESPHome Starter Kit</a> for each host (also up to three)
 - A yet-to-be released sticker pack for your guests
 - Tote bags
 - Lanyards in two designs (a standard design, and a red design for guests who don’t want their photo taken or shared)
-- Special edition NFC tag keychains
 
-If you miss the deadline to request merch from us, or want to use a local provider to create custom merch we don’t offer, please [contact us](mailto:communityday@openhomefoundation.org) so we can make sure you’re covered! We’ll share the official design assets for the items you want to order and reimburse you for your purchases.
+If you miss the deadline to request merch from us, or want to use a local provider to create custom merch we don’t offer, please email us at <a href="mailto:communityday@openhomefoundation.org" class="copy-email" aria-label="communityday@openhomefoundation.org – click to copy email address">communityday<span>@</span>openhomefoundation.org</a> so we can make sure you’re covered! We’ll share the official design assets for the items you want to order and reimburse you for your purchases.
 
 It’s important to note that we cannot reimburse you for any purchases made through the official Open Home Foundation store. If you want official merchandise for your event this year, you need to submit your request before the deadline. However, we’ll absolutely cover you if you order some custom merch from another provider.
 
@@ -128,4 +127,4 @@ We know there’s a lot more information to digest for this year’s Community D
 
 The <a href="https://discord.com/channels/330944238910963714/1537054268933144677" target="_blank" rel="noopener noreferrer">#community-day</a> channel in Discord is where you can chat with other hosts to share ideas for activities you’ll have at your meetups, and make threads to talk more closely with your own guests. I’ll hang out in there as well to answer any questions you may have, and keep hosts updated on the latest news.
 
-If you don’t have Discord, or simply prefer email communications, we’ll happily provide the same support when you email us at <a href="mailto:communityday@openhomefoundation.org" class="copy-email" aria-label="communityday@openhomefoundation.org – click to copy email address">communityday@openhomefoundation.org</a>. I personally cannot wait to hear from you, and look forward to seeing all the photos from this year’s celebration of the community 🤩
+If you don’t have Discord, or simply prefer email communications, we’ll happily provide the same support when you email us at <a href="mailto:communityday@openhomefoundation.org" class="copy-email" aria-label="communityday@openhomefoundation.org – click to copy email address">communityday<span>@</span>openhomefoundation.org</a>. I personally cannot wait to hear from you, and look forward to seeing all the photos from this year’s celebration of the community 🤩
