@@ -4,7 +4,7 @@ description: "Community Day 2026 is coming up fast, so here’s all you need to 
 card_image: /assets/images/blog/countdown-to-community-day-2026-starts-now/card.webp
 og_image: /assets/images/blog/countdown-to-community-day-2026-starts-now/card.webp
 hide_header_image: true
-date: 2026-09-03
+date: 2026-09-10
 author: [missy-quarry]
 category: "Community"
 comments: true
@@ -18,7 +18,7 @@ Want to host your very own Community Day meetup? Set it up on the <a href="https
 
 A month ago we asked you to [mark your calendars for Community Day 2026](/blog/community-day-2026-save-the-date/) on November 7. From today you can mark _our_ calendar! Our <a href="https://luma.com/communityday2026" target="_blank" rel="noopener noreferrer">Community Day Luma calendar</a> that is 😁 All you need to get started is the desire to host and to add your meetup to the calendar!
 
-But that’s not where the support from us stops! I’ve put my head together with our event organizer, Florencia, to make sure every host is set up for success this year. This special annual event has a new website with our Host Playbook, Reimbursement Guidelines, information on how to request official merchandise, and dynamic updates of where events are being held.
+But that’s not where the support from us stops! I’ve put my head together with our event organizer, Florencia, to make sure every host is set up for success this year. This special annual event has a [new website](/community-day/) with our Host Playbook, Reimbursement Guidelines, information on how to request official merchandise, and dynamic updates of where events are being held.
 
 Let’s get into some of those details 👀
 
@@ -32,7 +32,7 @@ Our [Community Day website](/community-day/) is now live! Our graphic designers 
 
 On this new page you can find what [Community Day](/community-day/) is all about, some things we’re doing differently this year based on learnings from the last event, links to informational subpages, and dynamic updates of events added to our calendar.
 
-We provide a lot of extra information on our subpages for the Host Playbook, Reimbursement Guidelines, merchandise requests, and our FAQ. Let me break down some of that here for y’all.
+We provide a lot of extra information on our subpages for the Host Playbook, Reimbursement Guidelines, merchandise requests, and our [FAQ](/community-day/#faqs). Let me break down some of that here for y’all.
 
 <img src="/assets/images/blog/countdown-to-community-day-2026-starts-now/image2.webp" alt="The new Community Day 2026 webpage, with a green header reading “Community Day 2026, Saturday, November 7” and buttons to see all meetups or host your own." style="border: 0;box-shadow: none;">
 
@@ -40,7 +40,7 @@ _A fresh new webpage, just for you!_
 
 ## We’ve got you covered
 
-One big item missing last year was a Host Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our new Community Day website and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
+One big item missing last year was a Host Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our [new Community Day website](/community-day/) and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
 
 <details class="accordion">
 <summary>8 weeks before the event</summary>
