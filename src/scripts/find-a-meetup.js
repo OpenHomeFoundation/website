@@ -8,31 +8,23 @@ const eventsDataEl = document.getElementById("find-a-meetup-events");
 const events = eventsDataEl ? JSON.parse(eventsDataEl.textContent) : [];
 
 if (mapContainer) {
+  function minZoomForWidth() {
+    return Math.max(2, Math.ceil(Math.log2(mapContainer.clientWidth / 256)));
+  }
+
+  const floorZoom = minZoomForWidth();
+
   const map = L.map(mapContainer, {
-    // Added manually below, positioned bottom-right instead of Leaflet's
-    // default top-left.
     zoomControl: false,
     gestureHandling: true,
-    // Without this, dragging far enough lets you pan into a repeated copy
-    // of the world — the tile layer wraps by default, but markers only
-    // ever render at their real coordinates, so the repeated copy looks
-    // empty. maxBoundsViscosity: 1 makes this a hard stop rather than a
-    // rubber-band overshoot.
     maxBounds: [
       [-90, -180],
       [90, 180],
     ],
     maxBoundsViscosity: 1.0,
-    // Events span close to the full width of the world, so fitBounds()
-    // zooms out quite far just to fit that — on a tall portrait container
-    // (mobile), the resulting view doesn't reach the container's own top/
-    // bottom edges, leaving grey bands above/below a horizontal strip of
-    // tiles. A floor on how far out it can go trades a few very remote
-    // markers being just outside the initial view (still reachable by
-    // panning) for the map actually filling its box.
-    minZoom: 2,
-    center: [20, 0],
-    zoom: 2,
+    minZoom: floorZoom,
+    center: [30, 0],
+    zoom: floorZoom,
   });
 
   L.control.zoom({ position: "bottomright" }).addTo(map);
@@ -40,8 +32,6 @@ if (mapContainer) {
   const tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 19,
-    // Stops the tile layer itself from rendering repeated copies of the
-    // world at low zoom levels, independent of the panning limit above.
     noWrap: true,
   }).addTo(map);
 
@@ -107,17 +97,12 @@ if (mapContainer) {
 
   const bounds = [];
   for (const event of events) {
-    // Some events come back from the API with no coordinates at all — a
-    // few of them are missing lat/lng outright (undefined, not NaN), so
-    // Number.isNaN() alone doesn't catch them and L.marker() throws.
     if (typeof event.lat !== "number" || typeof event.lng !== "number" || Number.isNaN(event.lat) || Number.isNaN(event.lng)) {
       continue;
     }
 
     const marker = L.marker([event.lat, event.lng], { icon: markerIcon }).addTo(map);
     marker.bindPopup(buildPopupContent(event));
-    // "Active" = its popup is open — kept highlighted even once the pointer
-    // leaves the marker for the popup content (see .map-marker.is-active).
     marker.on("popupopen", () => marker.getElement()?.classList.add("is-active"));
     marker.on("popupclose", () => marker.getElement()?.classList.remove("is-active"));
     bounds.push([event.lat, event.lng]);
@@ -129,9 +114,6 @@ if (mapContainer) {
     map.invalidateSize({ pan: false });
     map.fitBounds(bounds, { padding: [16, 16], animate: false });
 
-    // The map column is wider on desktop (matches the "desktop" breakpoint
-    // in src/styles/scss/mixins.scss), so fitBounds already lands on a
-    // closer zoom there than on mobile — nudge it in a little further still.
     if (window.matchMedia("(min-width: 1024px)").matches) {
       map.panBy([-90, -70], { animate: false });
       map.setZoom(map.getZoom() + 0.5, { animate: false });
@@ -153,6 +135,8 @@ if (mapContainer) {
   tiles.on("load", reveal);
 
   new ResizeObserver(() => {
+    map.setMinZoom(minZoomForWidth());
+
     if (revealed || bounds.length === 0) {
       map.invalidateSize();
     } else {
