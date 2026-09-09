@@ -1,6 +1,6 @@
 ---
 title: "The countdown to Community Day 2026 starts now!"
-description: "Community Day 2026 is coming up fast, so here’s all you need to know – including how to host an event and the support we can give you to make it a success!"
+description: "Community Day 2026 is coming up fast, so here’s all you need to know – including how to host an event, and the support we can give you to make it a success!"
 card_image: /assets/images/blog/countdown-to-community-day-2026-starts-now/card.webp
 og_image: /assets/images/blog/countdown-to-community-day-2026-starts-now/card.webp
 hide_header_image: true
