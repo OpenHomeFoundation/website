@@ -40,7 +40,7 @@ _A fresh new webpage, just for you!_
 
 ## We’ve got you covered
 
-One big item missing last year was a Community Meetups Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our [new Community Day website](/community-day/) and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
+One big item missing last year was a Community Meetups Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our [new Community Day website](/community-day/) as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
 
 <details class="accordion">
 <summary>8 weeks before the event</summary>
