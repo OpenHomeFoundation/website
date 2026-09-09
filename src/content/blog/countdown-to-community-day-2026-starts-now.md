@@ -10,7 +10,7 @@ category: "Community"
 comments: true
 ---
 
-Want to host your very own Community Day meetup? Set it up on the <a href="https://luma.com/communityday2026" target="_blank" rel="noopener noreferrer">Community Day 2026 Luma calendar</a> today! We have a lot of stuff we’ve prepared for hosts _and_ guests this year, so read on to learn about the Host Playbook, how to submit a request to receive official Open Home Foundation merchandise, and much more…
+Want to host your very own Community Day meetup? Set it up on the <a href="https://luma.com/communityday2026" target="_blank" rel="noopener noreferrer">Community Day 2026 Luma calendar</a> today! We have a lot of stuff we’ve prepared for hosts _and_ guests this year, so read on to learn about our new playbook for community meetups, how to submit a request to receive official Open Home Foundation merchandise, and much more…
 
 <!--more-->
 
@@ -18,7 +18,7 @@ Want to host your very own Community Day meetup? Set it up on the <a href="https
 
 A month ago we asked you to [mark your calendars for Community Day 2026](/blog/community-day-2026-save-the-date/) on November 7. From today you can mark _our_ calendar! Our <a href="https://luma.com/communityday2026" target="_blank" rel="noopener noreferrer">Community Day Luma calendar</a> that is 😁 All you need to get started is the desire to host and to add your meetup to the calendar!
 
-But that’s not where the support from us stops! I’ve put my head together with our event organizer, Florencia, to make sure every host is set up for success this year. This special annual event has a [new website](/community-day/) with our Host Playbook, Reimbursement Guidelines, information on how to request official merchandise, and dynamic updates of where events are being held.
+But that’s not where the support from us stops! I’ve put my head together with our event organizer, Florencia, to make sure every host is set up for success this year. This special annual event has a [new website](/community-day/) with our Community Meetups Playbook (including reimbursement guidelines), information on how to request official merchandise, and dynamic updates of where events are being held.
 
 Let’s get into some of those details 👀
 
@@ -30,17 +30,17 @@ _We loved seeing your snaps from Community Day 2025!_
 
 Our [Community Day website](/community-day/) is now live! Our graphic designers and web developers went all out for you, taking what we built for our Home Assistant community page and giving it the facelift Community Day deserves 👏
 
-On this new page you can find what [Community Day](/community-day/) is all about, some things we’re doing differently this year based on learnings from the last event, links to informational subpages, and dynamic updates of events added to our calendar.
+On this new page you can find what [Community Day](/community-day/) is all about, some things we’re doing differently this year based on learnings from the last event, links to informational PDFs, and dynamic updates of events added to our calendar.
 
-We provide a lot of extra information on our subpages for the Host Playbook, Reimbursement Guidelines, merchandise requests, and our [FAQ](/community-day/#faqs). Let me break down some of that here for y’all.
+We provide a lot of extra information in our Community Meetups Playbook, merchandise requests form, and our FAQ. Let me break down some of that here for y’all.
 
-<img src="/assets/images/blog/countdown-to-community-day-2026-starts-now/image2.webp" alt="The new Community Day 2026 webpage, with a green header reading “Community Day 2026, Saturday, November 7” and buttons to see all meetups or host your own." style="border: 0;box-shadow: none;">
+<img src="/assets/images/blog/countdown-to-community-day-2026-starts-now/image2.webp" alt="The new Community Day 2026 webpage: a green header with the Home Assistant, ESPHome, and Music Assistant logos, the heading “Community Day 2026, Saturday, November 7”, and buttons to see all meetups or host your own, above the “What is Community Day?” section." style="border: 0;box-shadow: none;">
 
 _A fresh new webpage, just for you!_
 
 ## We’ve got you covered
 
-One big item missing last year was a Host Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our [new Community Day website](/community-day/) and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
+One big item missing last year was a Community Meetups Playbook – I’m thrilled to say we’ve got you covered with one now. Available on our [new Community Day website](/community-day/) and as a [downloadable PDF](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), this will be your guide to preparing to host a meetup. The playbook is packed with information, so let me share the key timings for hosts ahead of Community Day.
 
 <details class="accordion">
 <summary>8 weeks before the event</summary>
@@ -55,7 +55,7 @@ One big item missing last year was a Host Playbook – I’m thrilled to say we�
 <details class="accordion">
 <summary>6 weeks before</summary>
 
-- Lock in your venue (check out the [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf) to see how we help with this).
+- Lock in your venue (check out the reimbursement guidelines in the [Community Meetups Playbook](/assets/documents/community-meetups-playbook-07-sep-2026.pdf) to see how we help with this).
 - Confirm your co-hosts.
 - Spread the word!
 - Reach out to your local or regional community – you can find the ones we’re aware of in the FAQ of <a href="https://www.home-assistant.io/community/" target="_blank" rel="noopener noreferrer">our Community webpage</a>. If yours is missing, please let us know!
@@ -109,7 +109,7 @@ _The Community department is here to help! From left to right: Isabelle, Melissa
 
 I won’t lie: merch for hosts was a bit of a mess last year 😬 We said one thing and then weren’t able to honor that, forcing hosts to find their own merch. So this year we’re making it possible to <a href="https://forms.gle/jUA6n8DJvBJvs4Z96" target="_blank" rel="noopener noreferrer">request merch from us directly</a> 🎉 Because of shipping deadlines, the request cut-off date is October 5, but that’s not where it stops! If you miss the deadline or simply want to produce your own merch locally (see below), we’ll reimburse you for those purchases.
 
-We’ve updated last year’s [Reimbursement Guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also use throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
+We’ve updated last year’s [reimbursement guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also use throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
 
 - A T-shirt and sweater for each host (up to three)
 - An <a href="https://esphome.io/starter-kit/" target="_blank" rel="noopener noreferrer">ESPHome Starter Kit</a> for each host (also up to three)
