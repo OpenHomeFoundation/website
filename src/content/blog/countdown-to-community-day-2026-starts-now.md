@@ -111,7 +111,7 @@ I won’t lie: merch for hosts was a bit of a mess last year 😬 We said one th
 
 We’ve updated last year’s [reimbursement guidelines](/assets/documents/community-meetups-playbook-07-sep-2026.pdf), which we also use throughout the year for regular community meetups. We will still cover most of the same things, such as venue fees and certain host expenses. However, if you request merch from us for Community Day you can expect:
 
-- A T-shirt and sweater for each host (up to three)
+- A T-shirt or sweater for each host (up to three)
 - An <a href="https://esphome.io/starter-kit/" target="_blank" rel="noopener noreferrer">ESPHome Starter Kit</a> for each host (also up to three)
 - A yet-to-be released sticker pack for your guests
 - Tote bags
